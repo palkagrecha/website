@@ -1,6 +1,5 @@
 import React from "react";
 import Modal from "react-modal";
-import vr from "../images/check.mp4";
 
 const Model = ({ open, setOpen }) => {
   const customStyles = {
@@ -30,7 +29,7 @@ const Model = ({ open, setOpen }) => {
                   loop
                   autoPlay
                   muted
-                  src={vr}
+                  src="https://cdn.coverr.co/videos/coverr-palm-tree-landscape-3016/1080p.mp4"
                   type="video/mp4"
                 ></video>
               </div>
