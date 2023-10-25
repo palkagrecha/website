@@ -1,5 +1,4 @@
 import React from "react";
-import vr from "../images/check.mp4";
 const PlayVideo = () => {
   const arr = [1, 2, 3];
   return (
@@ -15,7 +14,7 @@ const PlayVideo = () => {
                   loop
                   autoPlay
                   muted
-                  src={vr}
+                  src="https://cdn.coverr.co/videos/coverr-palm-tree-landscape-3016/1080p.mp4"
                   type="video/mp4"
                 >
                   {/* <source src={vr} type="video/mp4"></source> */}

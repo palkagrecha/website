@@ -1,5 +1,5 @@
 import React from "react";
-import vr from "../images/check.mp4";
+
 import Model from "../component/Model";
 import { useState } from "react";
 const Project = () => {
@@ -34,7 +34,7 @@ const Project = () => {
                         loop
                         autoPlay
                         muted
-                        src={vr}
+                        src="https://cdn.coverr.co/videos/coverr-palm-tree-landscape-3016/1080p.mp4"
                         type="video/mp4"
                       ></video>
                     </div>
