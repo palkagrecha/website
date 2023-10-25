@@ -1,0 +1,27 @@
+#back_color_set {
+    background-color: #21272F;
+
+}
+
+.brandColor {
+    color: rgb(0, 189, 149);
+    font-size: 2.3rem;
+}
+
+.brandColor:hover {
+    color: rgb(0, 189, 149);
+}
+
+.nav_name a {
+    color: white;
+    transition: all 0.4s;
+}
+
+.nav_name a:hover {
+    color: rgb(0, 189, 149);
+}
+
+.navbar-toggler {
+
+    background-color: aqua !important;
+}

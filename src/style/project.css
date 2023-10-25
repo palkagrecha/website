@@ -1,0 +1,39 @@
+.project {
+    background-color: #21272F;
+
+}
+
+.filter_btn {
+    display: flex;
+    align-items: center;
+}
+
+.filter_btn button {
+    background-color: rgb(17, 201, 141);
+    font-size: large;
+    font-weight: 600;
+    color: white;
+    margin: 10px;
+    border-radius: 20px;
+
+
+}
+
+.filter_btn button:hover {
+    background-color: rgb(33, 75, 61);
+    color: white;
+}
+
+.nameProject h6 {
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+    letter-spacing: 3px;
+}
+
+.project_video {
+    background-color: #21272F;
+    width: "270";
+    height: "900";
+    border-radius: 20px;
+}

@@ -1,0 +1,37 @@
+.service {
+    background-color: rgb(23, 28, 35);
+}
+
+.service_text .service_intro1 {
+    color: white;
+}
+
+.service_text .service_intro2 {
+    color: rgb(0, 195, 153);
+}
+
+.space_bw {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #21272F;
+}
+
+.profession {
+    color: white;
+    font-weight: 800;
+}
+
+
+
+.service_title {
+    color: white;
+}
+
+.service_ds {
+    line-height: 15px;
+}
+
+.service_ds small {
+    color: white;
+    font-size: small;
+}
