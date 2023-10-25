@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="foot">
             <div className="companyName">
               <p>
-                <b>ar@biancagaruttid.com</b>
+                <b>ar@biancagarutti.com</b>
               </p>
             </div>
             <div className="socialLogo">
