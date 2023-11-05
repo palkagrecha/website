@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
+import { useNavigate } from "react-router-dom";
 import { BsInstagram } from "react-icons/bs";
 import { TbWorldCancel } from "react-icons/tb";
 import { SiReactivex } from "react-icons/si";
@@ -8,6 +9,7 @@ import Service from "../component/Service";
 import Brands1 from "../component/Brands1";
 import PlayVideo from "../component/PlayVideo";
 const Home = () => {
+  const navigate = useNavigate();
   let brandTitle1 = `
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, aut! Unde dolor corrupti excepturi tenetur reprehenderit delectus voluptatem ex, consectetur eligendi commodi odio ea debitis repudiandae sit harum corporis sequi?
   
@@ -117,7 +119,9 @@ const Home = () => {
                 </div>
               </div>
               <div className="row btn_set  my-4 px-2">
-                <button className="btn">Let&#39;s Talk</button>
+                <button className="btn" onClick={() => navigate("/touch")}>
+                  Let&#39;s Talk
+                </button>
               </div>
             </div>
             <div className="col-md-5 ">

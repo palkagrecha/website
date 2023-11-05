@@ -1,4 +1,6 @@
 import React from "react";
+import ReactPlayer from "react-player/lazy";
+
 const PlayVideo = () => {
   const arr = [1, 2, 3];
   return (
@@ -8,17 +10,18 @@ const PlayVideo = () => {
           <div className="row d-flex justify-content-between">
             {arr.map((x, i) => (
               <div className="col-md-3 playVideo_auto" key={i}>
-                <video
-                  height={400}
-                  width={200}
-                  loop
-                  autoPlay
-                  muted
-                  src="https://cdn.coverr.co/videos/coverr-palm-tree-landscape-3016/1080p.mp4"
-                  type="video/mp4"
-                >
-                  {/* <source src={vr} type="video/mp4"></source> */}
-                </video>
+                <ReactPlayer
+                  url="ttps://www.youtube.com/watch?v=LXb3EKWsInQ"
+                  height={350}
+                  width={250}
+                  style={{
+                    border: "10px solid white",
+                    borderRadius: "30px",
+                    padding: 0,
+                    margin: 0,
+                  }}
+                  playing={true}
+                />
               </div>
             ))}
           </div>
