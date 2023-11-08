@@ -1,6 +1,8 @@
 import React from "react";
 import ReactPlayer from "react-player/lazy";
 import Model from "../component/Model";
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
 import { useState } from "react";
 const Project = () => {
   const [open, setOpen] = useState(false);
@@ -15,15 +17,72 @@ const Project = () => {
       <Model open={open} setOpen={setOpen} />
       <section className="project py-5">
         <div className="container">
-          <div className="row">
-            <div className="row">
-              <div className="filter_btn">
-                <button className="btn">All</button>
-                <button className="btn">Personal</button>
-                <button className="btn">Client</button>
-                <button className="btn">Collab</button>
-              </div>
-            </div>
+      <div className="row ">
+            <div className="flex-row dropdown">
+             
+      <DropdownButton
+        id="dropdown-button-dark-example2"
+        variant="secondary"
+        title="All"
+        className="mt-2"
+        data-bs-theme="dark"
+      >
+        <Dropdown.Item href="#/action-1" active>
+          Action
+        </Dropdown.Item>
+        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        <Dropdown.Divider />
+        <Dropdown.Item href="#/action-4">Separated link</Dropdown.Item>
+      </DropdownButton>
+
+      <DropdownButton
+        id="dropdown-button-dark-example2"
+        variant="secondary"
+        title="Personal"
+        className="mt-2"
+        data-bs-theme="dark"
+      >
+        <Dropdown.Item href="#/action-1" active>
+          Action
+        </Dropdown.Item>
+        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        <Dropdown.Divider />
+        <Dropdown.Item href="#/action-4">Separated link</Dropdown.Item>
+      </DropdownButton>
+       <DropdownButton
+        id="dropdown-button-dark-example2"
+        variant="secondary"
+        title="Client"
+        className="mt-2"
+        data-bs-theme="dark"
+      >
+        <Dropdown.Item href="#/action-1" active>
+          Action
+        </Dropdown.Item>
+        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        <Dropdown.Divider />
+        <Dropdown.Item href="#/action-4">Separated link</Dropdown.Item>
+      </DropdownButton>
+       <DropdownButton
+        id="dropdown-button-dark-example2"
+        variant="secondary"
+        title="Collab"
+        className="mt-2"
+        data-bs-theme="dark"
+      >
+        <Dropdown.Item href="#/action-1" active>
+          Action
+        </Dropdown.Item>
+        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        <Dropdown.Divider />
+        <Dropdown.Item href="#/action-4">Separated link</Dropdown.Item>
+      </DropdownButton>
+    
+    </div>
             <div className="row project_list  mt-5 p-0">
               <div className="project_list  row d-flex justify-content-between">
                 {arr.map((x, i) => (
