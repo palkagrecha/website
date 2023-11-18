@@ -7,7 +7,7 @@ const PlayVideo = () => {
     <>
       <div className="playVideo pt-5">
         <div className="container py-5">
-          <div className="row d-flex justify-content-between">
+          <div className="row d-flex justify-content-between flex-wrap-reverse">
             {arr.map((x, i) => (
               <div className="col-md-3 playVideo_auto" key={i}>
                 <ReactPlayer
@@ -18,7 +18,7 @@ const PlayVideo = () => {
                     border: "10px solid white",
                     borderRadius: "30px",
                     padding: 0,
-                    margin: 0,
+                    margin: "1vh",
                   }}
                   playing={true}
                 />

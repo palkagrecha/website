@@ -88,19 +88,19 @@ const Home = () => {
   return (
     <>
       <section className="upper">
-        <div className="container py-5">
-          <div className="row">
+        <div className="container py-5  ">
+          <div className="row flex-wrap-reverse">
             <div className="col-md-7">
-              <div className="row">
+              <div className="row flex-wrap-reverse">
                 <h5 className="intro">
                   <span className="intro1">Hello, </span>
                   <span className="intro2">I&#39;m</span>
                 </h5>
               </div>
-              <div className="row my-1">
+              <div className="row my-1 flex-wrap-reverse">
                 <h1 id="title">Vishal Kumar</h1>
               </div>
-              <div className="row subtitle my-1">
+              <div className="row subtitle my-1 flex-wrap-reverse">
                 <h5>
                   <Typed
                     strings={["UI / UX Designer and Graphics Designer"]}
@@ -110,7 +110,7 @@ const Home = () => {
                   />
                 </h5>
               </div>
-              <div className="row my-2">
+              <div className="row my-2 flex-wrap-reverse">
                 <div className="col-6 description">
                   <span>
                     Lorem ipsum dolor sit amet consectetur adipisicing amet
@@ -118,14 +118,14 @@ const Home = () => {
                   </span>
                 </div>
               </div>
-              <div className="row btn_set  my-4 px-2">
+              <div className="row btn_set  my-4 px-2 flex-wrap-reverse">
                 <button className="btn" onClick={() => navigate("/touch")}>
                   Let&#39;s Talk
                 </button>
               </div>
             </div>
             <div className="col-md-5 ">
-              <div className="row">
+              <div className="row flex-wrap-reverse">
                 <div className="hexagon-container">
                   <div className="clip_path">
                     <img src={owner} alt="owner" id="owner" />

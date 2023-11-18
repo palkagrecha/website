@@ -22,7 +22,7 @@ We transform the future of your brand  <br />through immersive experiences.
   </div>
 
 
-  <div className=" py-5 row m-5 d-flex justify-content-between">
+  <div className=" py-5 row m-5 d-flex justify-content-between column-gap-1" >
 
 
     <div className="col-md-3 count">
