@@ -11,7 +11,7 @@ import PlayVideo from "../component/PlayVideo";
 const Home = () => {
   const navigate = useNavigate();
   let brandTitle1 = `
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, aut! Unde dolor corrupti excepturi tenetur reprehenderit delectus voluptatem ex, consectetur eligendi commodi odio ea debitis repudiandae sit harum corporis sequi?
+            Lore ipsum dolor, sit amet consectetur adipisicing elit. Alias, aut! Unde dolor corrupti excepturi tenetur reprehenderit delectus voluptatem ex, consectetur eligendi commodi odio ea debitis repudiandae sit harum corporis sequi?
   
   `;
   let brandTitle2 = `
