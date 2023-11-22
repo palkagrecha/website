@@ -1,7 +1,7 @@
 .touch {
     background-color: #21272F;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
 }
 
 .getInTOuch p {
@@ -33,4 +33,19 @@
 .formHeadingLabel,
 #emailHelp {
     color: white;
+}
+
+@media screen and (max-width: 767px) {
+
+    .responsiveContact {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(2%);
+    }
+
+    .touch {
+        height: 120vh;
+    }
 }

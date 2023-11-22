@@ -19,3 +19,84 @@
 .aboutDs p {
     color: white;
 }
+
+@media screen and (max-width: 1187px) {
+
+    #aboutForResponsive {
+
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .aboutDs p {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .aboutDs p {
+        font-size: x-small;
+    }
+
+    #aboutForResponsive {
+
+        height: 200px;
+        width: 200px;
+    }
+
+    .about_title span {
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .aboutDs p {
+        font-size: small;
+    }
+
+    .at575AboutHeading {
+        text-align: center;
+    }
+
+    .at575px {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #aboutForResponsive {
+
+        height: 250px;
+        width: 250px;
+    }
+
+    .aboutDs {
+        margin-top: 10px;
+    }
+
+    .hide575aboutdes {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 415px) {
+
+    .aboutIntro1,
+    .aboutIntro2 {
+        font-size: 3rem !important;
+    }
+
+    .about {
+
+        height: 130vh;
+    }
+
+    .aboutDs {
+        text-align: center;
+    }
+}

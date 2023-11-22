@@ -7,7 +7,7 @@ const Touch = () => {
       <div className="touch">
         <div className="container">
           <div className="row">
-            <div className="col-6 mt-3">
+            <div className="col-6 mt-3 responsiveContact">
               <div className="row touchForm">
                 <h3>Contact Our Team</h3>
                 <div className="row">

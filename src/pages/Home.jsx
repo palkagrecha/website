@@ -1,5 +1,5 @@
 import React from "react";
-import Typed from "react-typed";
+// import Typed from "react-typed";
 import { useNavigate } from "react-router-dom";
 import { BsInstagram } from "react-icons/bs";
 import { TbWorldCancel } from "react-icons/tb";
@@ -89,8 +89,8 @@ const Home = () => {
     <>
       <section className="upper">
         <div className="container py-5  ">
-          <div className="row flex-wrap-reverse">
-            <div className="col-md-7">
+          <div className="row flex-wrap-reverse ">
+            <div className="col-sm-7" id="forsmallDevice">
               <div className="row flex-wrap-reverse">
                 <h5 className="intro">
                   <span className="intro1">Hello, </span>
@@ -102,15 +102,16 @@ const Home = () => {
               </div>
               <div className="row subtitle my-1 flex-wrap-reverse">
                 <h5>
-                  <Typed
+                  UI / UX Designer and Graphics Designer
+                  {/* <Typed
                     strings={["UI / UX Designer and Graphics Designer"]}
                     typeSpeed={40}
                     backSpeed={50}
                     loop
-                  />
+                  /> */}
                 </h5>
               </div>
-              <div className="row my-2 flex-wrap-reverse">
+              <div className="row my-2 flex-wrap-reverse atMobile">
                 <div className="col-6 description">
                   <span>
                     Lorem ipsum dolor sit amet consectetur adipisicing amet
@@ -124,7 +125,13 @@ const Home = () => {
                 </button>
               </div>
             </div>
-            <div className="col-md-5 ">
+
+            <div className="col-sm-5 ">
+              <div
+                className="row responsiveDevice py-5 "
+                id="responseAtId"
+                style={{ height: "300px" }}
+              ></div>
               <div className="row flex-wrap-reverse">
                 <div className="hexagon-container">
                   <div className="clip_path">
@@ -135,7 +142,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="row my-4  p-0 g-0">
+          <div className="row my-4  p-0 g-0 ">
             <div className="diamond">
               <div className="box_1">
                 <span>Check out my</span>
@@ -173,6 +180,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+
       <Service />
       <PlayVideo />
       <Brands1 title={brandTitle1} logo={BrandsLogo} />

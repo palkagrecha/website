@@ -6,3 +6,25 @@
   color: white;
   font-weight: 500;
 }
+
+@media screen and (max-width: 575px) {
+  .brand_Title {
+    color: white;
+    font-weight: 400;
+    font-size: small;
+  }
+
+  .at575BrandLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .at575BrandLogo img {
+    height: 100px;
+    width: 150px;
+    margin: 10px 0px 10px 0;
+    margin: auto;
+    object-fit: contain;
+  }
+}

@@ -35,3 +35,13 @@
     color: white;
     font-size: small;
 }
+
+@media screen and (max-width: 575px) {
+    .at575Heading {
+        text-align: center;
+    }
+
+    .at575Div {
+        margin: 20px 0px 20px 0px;
+    }
+}

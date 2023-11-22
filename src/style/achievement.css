@@ -6,3 +6,23 @@
     color: white;
     font-weight: 200;
 }
+
+@media screen and (max-width: 575px) {
+
+    .achiev_Heading {
+        text-align: center;
+    }
+
+    .service_provide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .at575aboutAchivement {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        transform: translate(7%);
+
+    }
+}
