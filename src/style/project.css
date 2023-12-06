@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.filter_btn button {
+#dropdown-button-dark-example2 {
   background-color: rgb(17, 201, 141);
   font-size: large;
   font-weight: 600;
@@ -16,9 +16,20 @@
   border-radius: 20px;
 }
 
-.filter_btn button:hover {
+
+
+.dropdown-button-dark-example2:hover {
   background-color: rgb(33, 75, 61);
   color: white;
+}
+
+.dropdown-item.active {
+  background-color: #213044;
+}
+
+.nameProject {
+  position: relative;
+  bottom: 70px;
 }
 
 .nameProject h6 {
@@ -26,6 +37,14 @@
   font-weight: 700;
   font-size: larger;
   letter-spacing: 3px;
+  line-height: 7px;
+  font-family: cursive;
+}
+
+.nameProject span {
+  color: white;
+  display: inline-block !important;
+  line-height: 20px;
 }
 
 .project_video {
@@ -39,4 +58,88 @@
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+}
+
+.playVideo_auto1 {
+  border-radius: 20px;
+  border: 10px solid rgb(17, 201, 141);
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 330px;
+  width: 260px;
+  /* You can adjust the value as needed */
+}
+
+.playVideo_auto1 video {
+  padding: 0 !important;
+  border-radius: 20px;
+  margin: 0 !important;
+  margin-top: -74px !important;
+}
+
+.project_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap
+}
+
+
+
+@media screen and (max-width:1199px) {
+
+  .playVideo_auto1 {
+
+    height: 300px;
+    width: 230px;
+    /* You can adjust the value as needed */
+  }
+
+  .playVideo_auto1 video {
+
+    margin-top: -88px !important;
+  }
+}
+
+@media screen and (max-width:922px) {
+
+  .playVideo_auto1 {
+
+    height: 280px;
+    width: 200px;
+    /* You can adjust the value as needed */
+  }
+
+  .playVideo_auto1 video {
+
+    margin-top: -105px !important;
+  }
+}
+
+@media screen and (max-width:767px) {
+
+  .dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project_list {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .playVideo_auto1 {
+
+    height: 340px;
+    width: 270px;
+    /* You can adjust the value as needed */
+  }
+
+  .playVideo_auto1 video {
+
+    margin-top: -68px !important;
+  }
+
 }

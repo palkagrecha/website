@@ -1,7 +1,7 @@
 import React from "react";
 import Modal from "react-modal";
 
-const Model = ({ open, setOpen }) => {
+const Model = ({ open, setOpen, modelData }) => {
   const customStyles = {
     content: {
       top: "20%",
@@ -29,14 +29,14 @@ const Model = ({ open, setOpen }) => {
                   loop
                   autoPlay
                   muted
-                  src="https://cdn.coverr.co/videos/coverr-palm-tree-landscape-3016/1080p.mp4"
+                  src={modelData.videoLink}
                   type="video/mp4"
                 ></video>
               </div>
             </div>
 
             <div className="col-8 p-2">
-              <h3 className="text-white">MoonLight</h3>
+              <h3 className="text-white">{modelData.name}</h3>
               <p className="text-white mt-2">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Similique dolorum modi mollitia accusamus odio blanditiis fugit,

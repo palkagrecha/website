@@ -30,3 +30,61 @@
     font-weight: 600;
     font-size: 1.3rem;
 }
+
+@media screen and (max-width: 1080px) {
+    .sizeReduce {
+
+        color: white;
+        font-weight: 100;
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+    }
+
+    .aboutSubtitle {
+        color: white;
+        font-size: 2rem;
+        font-weight: 400;
+        word-spacing: 7px;
+    }
+
+    .count h1 {
+        color: white;
+        font-weight: 500;
+        font-size: 3rem;
+    }
+
+    .count p {
+        color: rgb(0, 140, 255);
+        font-weight: 500;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sizeReduce {
+
+        color: white;
+        font-weight: 100;
+        font-size: 1rem;
+        letter-spacing: 5px;
+    }
+
+    .aboutSubtitle {
+        color: white;
+        font-size: 1rem;
+        font-weight: 300;
+        word-spacing: 5px;
+    }
+
+    .count h1 {
+        color: white;
+        font-weight: 400;
+        font-size: 2rem;
+    }
+
+    .count p {
+        color: rgb(0, 140, 255);
+        font-weight: 400;
+        font-size: 1rem;
+    }
+}
