@@ -35,6 +35,7 @@
 
 @media screen and (max-width:945px) {
 
+
     .atMobileDevice {
         display: flex;
         flex-direction: column;

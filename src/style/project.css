@@ -2,6 +2,8 @@
   background-color: #21272f;
 }
 
+
+
 .filter_btn {
   display: flex;
   align-items: center;
@@ -30,6 +32,7 @@
 .nameProject {
   position: relative;
   bottom: 70px;
+  left: -30px;
 }
 
 .nameProject h6 {
@@ -47,12 +50,6 @@
   line-height: 20px;
 }
 
-.project_video {
-  background-color: #21272f;
-  width: '270';
-  height: '900';
-  border-radius: 20px;
-}
 
 .dropdown {
   display: flex;
@@ -87,6 +84,11 @@
 
 
 @media screen and (max-width:1199px) {
+  .nameProject {
+    position: relative;
+    bottom: 70px;
+    left: 0;
+  }
 
   .playVideo_auto1 {
 
@@ -102,6 +104,22 @@
 }
 
 @media screen and (max-width:922px) {
+
+  .modelData h3 {
+    font-size: x-large;
+  }
+
+  .modelData p {
+    font-size: small;
+  }
+
+  #modelHeight {
+    width: 80% !important;
+  }
+
+  .modelVideo video {
+    margin-top: -60px !important;
+  }
 
   .playVideo_auto1 {
 
@@ -142,4 +160,63 @@
     margin-top: -68px !important;
   }
 
+}
+
+@media screen and (max-width:575px) {
+
+  .modelVideo video {
+    height: 300px !important;
+    width: 350px !important;
+    margin: auto !important;
+  }
+}
+
+@media screen and (max-width:443px) {
+
+  .modelVideo video {
+    height: 250px !important;
+    width: 200px !important;
+    margin: auto !important;
+  }
+
+  .modelData h3 {
+    font-size: large;
+  }
+
+  .modelData p {
+    font-size: x-small;
+  }
+
+  .modelBtn {
+    height: 40px;
+    width: 80px;
+    font-size: small;
+  }
+}
+
+@media screen and (max-width:400px) {
+
+
+
+
+
+  .modelBtn {
+    height: 30px;
+    width: 70px;
+    font-size: xx-small;
+  }
+}
+
+@media screen and (max-width:362px) {
+
+
+
+
+
+  .modelBtn {
+    height: 30px;
+    width: 60px;
+    font-size: xx-small;
+
+  }
 }

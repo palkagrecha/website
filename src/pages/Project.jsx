@@ -117,7 +117,7 @@ const Project = () => {
     <>
       <Model open={open} setOpen={setOpen} modelData={modelData} />
       <section className="project py-5">
-        <div className="container-fluid">
+        <div className="container-fluid" id="headerProject">
           <div className="row ">
             <div className="flex-row dropdown ">
               <DropdownButton
@@ -204,7 +204,7 @@ const Project = () => {
                 </Dropdown.Item>
               </DropdownButton>
             </div>
-            <div className="project_list  mt-5   p-0">
+            <div className="project_list  mt-5   ">
               {arr.map((x, i) => (
                 <div
                   className="col-md-3  my-2 "

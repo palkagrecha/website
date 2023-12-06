@@ -14,28 +14,22 @@ const Model = ({ open, setOpen, modelData }) => {
   return (
     <div>
       <Modal
+        id="modelHeight"
         isOpen={open}
         style={customStyles}
         onRequestClose={() => setOpen(false)}
       >
         <div className="container-fluid g-0 p-0 mt-2">
           <div className="row g-0 p-0 d-flex justify-content-between">
-            <div className="col-3 g-0 p-0">
-              <div className="row   g-0 p-0">
-                <video
-                  id="project_video"
-                  height={350}
-                  width={200}
-                  loop
-                  autoPlay
-                  muted
-                  src={modelData.videoLink}
-                  type="video/mp4"
-                ></video>
+            <div className="col-sm-4 g-0 p-0" id="at575px">
+              <div className="row   g-0 p-0 modelVideo">
+                <video autoPlay muted height="400px" width="260px">
+                  <source src={modelData.videoLink} type="video/mp4" />
+                </video>
               </div>
             </div>
 
-            <div className="col-8 p-2">
+            <div className="col-sm-7 p-2 modelData">
               <h3 className="text-white">{modelData.name}</h3>
               <p className="text-white mt-2">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -48,11 +42,15 @@ const Model = ({ open, setOpen, modelData }) => {
                 voluptatibus sint? Doloremque, at unde?
               </p>
 
-              <button className="btn bg-primary text-white">Instagram</button>
-              <button className="btn bg-primary text-white mx-3">
+              <button className="btn bg-primary text-white modelBtn">
+                Instagram
+              </button>
+              <button className="btn bg-primary text-white mx-3 modelBtn">
                 Facebook
               </button>
-              <button className="btn bg-primary text-white">Youtube</button>
+              <button className="btn bg-primary text-white modelBtn">
+                Youtube
+              </button>
             </div>
           </div>
         </div>
