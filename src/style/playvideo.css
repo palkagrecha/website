@@ -19,18 +19,22 @@
     position: relative;
     left: 50%;
     top: 50%;
-    margin-left: -150px;
+    margin-left: -180px;
     margin-top: -150px;
+
 }
 
-.swiper-slide {
-    background-position: center;
-    background-size: cover;
+.SwiperSlide {
+    background-color: black !important;
+
+
 }
 
-.swiper-slide img {
-    display: block;
-    width: 100%;
+
+.homeVideo {
+    border-radius: 20px !important;
+    height: 400px;
+    margin-left: 70px;
 }
 
 @media screen and (max-width:945px) {

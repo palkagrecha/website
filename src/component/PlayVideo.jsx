@@ -25,26 +25,26 @@ const PlayVideo = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <video autoPlay muted height="350px" width="100%">
+            <video autoPlay muted loop className="homeVideo">
               <source
-                src="https://media.xrbazaar.co/wp-content/uploads/2023/11/11113856/PreviewOpt.mp4"
+                src="https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702271189/Website%20Videos/Personal/Rollover_Donut_rgov9a.mp4"
                 type="video/mp4"
               />
             </video>
           </SwiperSlide>
 
           <SwiperSlide>
-            <video autoPlay muted height="350px" width="100%">
+            <video autoPlay muted loop className="homeVideo">
               <source
-                src="https://media.xrbazaar.co/wp-content/uploads/2023/08/18192040/MyWinterLookLens.mp4"
+                src="https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702271191/Website%20Videos/Personal/Mobility_of_Tomorrow_bohnao.mp4"
                 type="video/mp4"
               />
             </video>
           </SwiperSlide>
           <SwiperSlide>
-            <video autoPlay muted height="350px" width="100%">
+            <video autoPlay muted loop className="homeVideo">
               <source
-                src="https://media.xrbazaar.co/wp-content/uploads/2023/08/20051555/preview.mp4"
+                src="https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702271190/Website%20Videos/Personal/VCRvibes_bj2nb2.mp4"
                 type="video/mp4"
               />
             </video>
