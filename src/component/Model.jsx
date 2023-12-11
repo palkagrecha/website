@@ -23,7 +23,7 @@ const Model = ({ open, setOpen, modelData }) => {
           <div className="row g-0 p-0 d-flex justify-content-between">
             <div className="col-sm-4 g-0 p-0" id="at575px">
               <div className="row   g-0 p-0 modelVideo">
-                <video autoPlay muted height="400px" width="260px">
+                <video autoPlay muted loop>
                   <source src={modelData.videoLink} type="video/mp4" />
                 </video>
               </div>

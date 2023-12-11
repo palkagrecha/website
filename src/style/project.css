@@ -58,13 +58,15 @@
 }
 
 .playVideo_auto1 {
-  border-radius: 20px;
+  /* border-radius: 20px;
   border: 10px solid rgb(17, 201, 141);
   padding: 0 !important;
   margin: 0 !important;
   height: 330px;
-  width: 260px;
+  width: 260px; */
   /* You can adjust the value as needed */
+
+  margin: 50px 40px;
 }
 
 .playVideo_auto1 video {
@@ -72,6 +74,7 @@
   border-radius: 20px;
   margin: 0 !important;
   margin-top: -74px !important;
+
 }
 
 .project_list {
@@ -81,7 +84,9 @@
   flex-wrap: wrap
 }
 
-
+.modelVideo video {
+  border-radius: 20px !important;
+}
 
 @media screen and (max-width:1199px) {
   .nameProject {

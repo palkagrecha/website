@@ -1,8 +1,24 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 const WhatWe = () => {
   return (
     <>
+      <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <meta
+            name="description"
+            content="Reach out to Pal Kagrecha and explore the possibilities of innovative Augmented Reality solutions. Contact our team for inquiries, collaborations, or to discuss how we can elevate your projects with our expertise in AR technology."
+          />
+          <meta
+            name="keywords"
+            content="Augmented Reality, AR experiences, Innovation, Digital Transformation, Pal Kagrecha, Expertise, Story, Values, Team, Technology"
+          />
+          <meta name="author" content="Pal Kagrecha" />
+          <title> What we do - Connect for Innovative Solutions</title>
+        </Helmet>
+      </div>
       <section className="work">
         <div className="container ">
           <div className="row mx-5">

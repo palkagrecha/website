@@ -1,6 +1,8 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import { useState } from "react";
+import { Helmet } from "react-helmet";
+
 const Touch = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -21,6 +23,21 @@ const Touch = () => {
   };
   return (
     <>
+      <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <meta
+            name="description"
+            content="Reach out to Pal Kagrecha and explore the possibilities of innovative Augmented Reality solutions. Contact our team for inquiries, collaborations, or to discuss how we can elevate your projects with our expertise in AR technology."
+          />
+          <meta
+            name="keywords"
+            content="Augmented Reality, AR experiences, Innovation, Digital Transformation, Pal Kagrecha, Expertise, Story, Values, Team, Technology"
+          />
+          <meta name="author" content="Pal Kagrecha" />
+          <title> Contact Us - Connect for Innovative Solutions</title>
+        </Helmet>
+      </div>
       <div className="touch">
         <div className="container">
           <div className="row">

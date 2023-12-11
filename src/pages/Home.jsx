@@ -8,6 +8,7 @@ import owner from "../images/client-removebg-preview.png";
 import Service from "../component/Service";
 import Brands1 from "../component/Brands1";
 import PlayVideo from "../component/PlayVideo";
+import { Helmet } from "react-helmet";
 const Home = () => {
   const navigate = useNavigate();
   let brandTitle1 = `
@@ -87,6 +88,24 @@ const Home = () => {
 
   return (
     <>
+      <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <meta
+            name="description"
+            content="Transform ideas into captivating AR experiences. Specialists in gaming, entertainment, education, and healthcare solutions. Explore immersive possibilities with over 3 years of expertise"
+          />
+          <meta
+            name="keywords"
+            content="AR solutions, gaming AR, entertainment experiences, education technology, healthcare applications"
+          />
+          <meta name="author" content="Pal Kagrecha" />
+          <title>
+            {" "}
+            Elevate Your Projects with Expert Augmented Reality Solutions
+          </title>
+        </Helmet>
+      </div>
       <section className="upper">
         <div className="container py-5  ">
           <div className="row flex-wrap-reverse ">

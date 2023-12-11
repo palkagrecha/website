@@ -25,7 +25,7 @@ const PlayVideo = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <video autoPlay muted height="300px" width="100%">
+            <video autoPlay muted height="350px" width="100%">
               <source
                 src="https://media.xrbazaar.co/wp-content/uploads/2023/11/11113856/PreviewOpt.mp4"
                 type="video/mp4"
@@ -34,7 +34,7 @@ const PlayVideo = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-            <video autoPlay muted height="300px" width="100%">
+            <video autoPlay muted height="350px" width="100%">
               <source
                 src="https://media.xrbazaar.co/wp-content/uploads/2023/08/18192040/MyWinterLookLens.mp4"
                 type="video/mp4"
@@ -42,7 +42,7 @@ const PlayVideo = () => {
             </video>
           </SwiperSlide>
           <SwiperSlide>
-            <video autoPlay muted height="300px" width="100%">
+            <video autoPlay muted height="350px" width="100%">
               <source
                 src="https://media.xrbazaar.co/wp-content/uploads/2023/08/20051555/preview.mp4"
                 type="video/mp4"
