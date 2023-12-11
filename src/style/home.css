@@ -92,11 +92,11 @@
 
     /* Adjust the height to control the proportions */
     position: relative;
+
 }
 
 
 .clip_path {
-
 
     position: absolute;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
@@ -110,7 +110,6 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    box-shadow: 30px 30px 40px 90px rgb(28, 58, 60);
     border-radius: 80px;
 }
 
@@ -121,6 +120,8 @@
     width: 450px;
     position: absolute;
     top: 0px;
+    left: -70px;
+
 }
 
 /* footer */
@@ -171,6 +172,8 @@
     #owner {
         height: 300px;
         width: 250px;
+        top: 0px;
+        left: -10px;
     }
 }
 

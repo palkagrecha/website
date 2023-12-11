@@ -1,5 +1,6 @@
 import React from "react";
-import client from "../images/a.jpg";
+import Profile from "../images/PalKagrechaProfessionsalPicAbout.jpg";
+
 import Achievement from "../component/Achievement";
 import { Helmet } from "react-helmet";
 
@@ -35,7 +36,7 @@ const About = () => {
             <div className="col-sm-4">
               <div className="row at575px">
                 <img
-                  src={client}
+                  src={Profile}
                   alt="biance"
                   height={400}
                   class=" rounded "

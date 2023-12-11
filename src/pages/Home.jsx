@@ -1,10 +1,10 @@
 import React from "react";
 // import Typed from "react-typed";
 import { useNavigate } from "react-router-dom";
+import Profile from "../images/PalKagrechaProfessionsalPicHome.png";
 import { BsInstagram } from "react-icons/bs";
 import { TbWorldCancel } from "react-icons/tb";
 import { FaSnapchatGhost } from "react-icons/fa";
-import owner from "../images/client-removebg-preview.png";
 import Service from "../component/Service";
 import Brands1 from "../component/Brands1";
 import PlayVideo from "../component/PlayVideo";
@@ -155,7 +155,7 @@ const Home = () => {
               <div className="row flex-wrap-reverse">
                 <div className="hexagon-container">
                   <div className="clip_path">
-                    <img src={owner} alt="owner" id="owner" />
+                    <img src={Profile} alt="owner" id="owner" />
                   </div>
                 </div>
               </div>
