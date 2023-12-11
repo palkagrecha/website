@@ -9,7 +9,7 @@ const Header = () => {
       <Navbar expand="lg" id="back_color_set">
         <Container fluid>
           <Navbar.Brand onClick={() => navigate("/")} className="brandColor">
-            Client
+            Pal Kagrecha
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"

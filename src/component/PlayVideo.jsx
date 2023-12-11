@@ -27,7 +27,7 @@ const PlayVideo = () => {
           <SwiperSlide>
             <video autoPlay muted height="300px" width="100%">
               <source
-                src="https://media.geeksforgeeks.org/wp-content/uploads/20190616234019/Canvas.move_.mp4"
+                src="https://media.xrbazaar.co/wp-content/uploads/2023/11/11113856/PreviewOpt.mp4"
                 type="video/mp4"
               />
             </video>
@@ -36,7 +36,7 @@ const PlayVideo = () => {
           <SwiperSlide>
             <video autoPlay muted height="300px" width="100%">
               <source
-                src="https://media.geeksforgeeks.org/wp-content/uploads/20190616234019/Canvas.move_.mp4"
+                src="https://media.xrbazaar.co/wp-content/uploads/2023/08/18192040/MyWinterLookLens.mp4"
                 type="video/mp4"
               />
             </video>
@@ -44,7 +44,7 @@ const PlayVideo = () => {
           <SwiperSlide>
             <video autoPlay muted height="300px" width="100%">
               <source
-                src="https://media.geeksforgeeks.org/wp-content/uploads/20190616234019/Canvas.move_.mp4"
+                src="https://media.xrbazaar.co/wp-content/uploads/2023/08/20051555/preview.mp4"
                 type="video/mp4"
               />
             </video>

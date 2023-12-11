@@ -3,7 +3,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { BsInstagram } from "react-icons/bs";
 import { TbWorldCancel } from "react-icons/tb";
-import { SiReactivex } from "react-icons/si";
+import { FaSnapchatGhost } from "react-icons/fa";
 import owner from "../images/client-removebg-preview.png";
 import Service from "../component/Service";
 import Brands1 from "../component/Brands1";
@@ -98,7 +98,7 @@ const Home = () => {
                 </h5>
               </div>
               <div className="row my-1 flex-wrap-reverse">
-                <h1 id="title">Vishal Kumar</h1>
+                <h1 id="title">Pal Kagrecha</h1>
               </div>
               <div className="row subtitle my-1 flex-wrap-reverse">
                 <h5>
@@ -114,8 +114,9 @@ const Home = () => {
               <div className="row my-2 flex-wrap-reverse atMobile">
                 <div className="col-6 description">
                   <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing amet
-                    consectetur adipisicing amet amet consectetur amet .
+                    AR developer with 3+ years' experience, pushing immersive
+                    tech boundaries. Proven portfolio in gaming, entertainment,
+                    education, and healthcare AR projects.
                   </span>
                 </div>
               </div>
@@ -150,29 +151,44 @@ const Home = () => {
               <div className="diamondShape mx-2">
                 <div className=" box_2">
                   <div className="">
-                    <BsInstagram
-                      className="social_media"
-                      color="white"
-                      fontSize={20}
-                    />
+                    <a
+                      href="https://www.instagram.com/pal.techxr/"
+                      target="blank"
+                    >
+                      <BsInstagram
+                        className="social_media"
+                        color="white"
+                        fontSize={20}
+                      />
+                    </a>
                   </div>
                 </div>
                 <div className=" box_3">
                   <div>
-                    <TbWorldCancel
-                      className="social_media"
-                      color="white"
-                      fontSize={20}
-                    />
+                    <a
+                      href="https://xrbazaar.co/creators/palkagrecha/"
+                      target="blank"
+                    >
+                      <TbWorldCancel
+                        className="social_media"
+                        color="white"
+                        fontSize={20}
+                      />
+                    </a>
                   </div>
                 </div>
                 <div className=" box_4">
                   <div>
-                    <SiReactivex
-                      className="social_media"
-                      color="white"
-                      fontSize={20}
-                    />
+                    <a
+                      href="https://www.snapchat.com/add/pal.kagrecha"
+                      target="blank"
+                    >
+                      <FaSnapchatGhost
+                        className="social_media"
+                        color="white"
+                        fontSize={20}
+                      />
+                    </a>
                   </div>
                 </div>
               </div>

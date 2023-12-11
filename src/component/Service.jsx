@@ -26,13 +26,14 @@ const Service = () => {
                 <RiComputerFill fontSize={70} color="aqua" />
               </div>
               <div className="row text-center my-2">
-                <h5 className="service_title">UI/UX Designer</h5>
+                <h5 className="service_title">Augmented Reality</h5>
               </div>
               <div className="row text-center my-2">
                 <div className="service_ds ">
                   <small>
-                    Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor
-                    sit amet ipsum dolor sit ame elit. Recusandae!
+                    Crafting captivating AR experiences for 3+ years. Elevate
+                    gaming, entertainment, education, and healthcare projects
+                    with expertise.
                   </small>
                 </div>
               </div>
@@ -42,13 +43,14 @@ const Service = () => {
                 <SiTaichigraphics fontSize={70} color="aqua" />
               </div>
               <div className="row text-center my-2">
-                <h5 className="service_title">UI/UX Designer</h5>
+                <h5 className="service_title">Web Development</h5>
               </div>
               <div className="row text-center my-2">
                 <div className="service_ds ">
                   <small>
-                    Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor
-                    sit amet ipsum dolor sit ame elit. Recusandae!
+                    Boost your online presence with 3+ years of expert Web
+                    Development. Let's create dynamic, responsive websites for
+                    your digital success.
                   </small>
                 </div>
               </div>
@@ -58,13 +60,13 @@ const Service = () => {
                 <SiBackendless fontSize={70} color="aqua" />
               </div>
               <div className="row text-center my-2">
-                <h5 className="service_title">UI/UX Designer</h5>
+                <h5 className="service_title">App Development</h5>
               </div>
               <div className="row text-center my-2">
                 <div className="service_ds ">
                   <small>
-                    Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor
-                    sit amet ipsum dolor sit ame elit. Recusandae!
+                    Crafting cutting-edge mobile apps for 3+ years. Elevate your
+                    digital presence with our expert App Development solutions.
                   </small>
                 </div>
               </div>

@@ -10,7 +10,7 @@ const About = () => {
             <h1 className="about_title">
               <span className="aboutIntro1">About</span>
 
-              <span className="aboutIntro2 mx-4">Bianca</span>
+              <span className="aboutIntro2 mx-4">Pal Kagrecha</span>
             </h1>
           </div>
 
@@ -30,26 +30,21 @@ const About = () => {
             <div className="col-sm-8">
               <div className="row aboutDs">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                  ullam sit in esse, error deserunt excepturi, assumenda veniam
-                  mollitia quaerat quibusdam et quo commodi, tempore neque harum
-                  obcaecati autem dolorum? Exercitationem amet ea tenetur
-                  debitis eos. Sunt iste vero voluptate nam, quidem id possimus,
-                  dolore inventore, magni consequuntur vel sapiente recusandae
-                  ipsum magnam perferendis quisquam error libero aperiam autem
-                  ratione.
+                  I am an augmented reality developer with a passion for pushing
+                  the boundaries of immersive technology. With over 3 years of
+                  experience in the field, I have developed an impressive
+                  portfolio of AR projects for clients across industries, from
+                  gaming and entertainment to education and healthcare.
                 </p>
               </div>
               <div className="row aboutDs hide575aboutdes">
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-                  eligendi corporis blanditiis magni delectus expedita, suscipit
-                  incidunt? Natus, esse incidunt velit rem qui expedita labore
-                  doloremque quae eum inventore aperiam. Consequuntur alias odit
-                  id deserunt voluptas quas repudiandae culpa. Tempora suscipit
-                  voluptatibus nulla. Cumque soluta voluptatum molestias harum
-                  voluptatibus quibusdam quo id cum incidunt? Quam quaerat sit
-                  eos enim at.
+                  The journey into the world of AR began during my undergraduate
+                  (Computer Engineering) days when I got fascinated by the
+                  potential of AR to transform the way we interact with the
+                  world around us. Since then, I have dedicated myself to
+                  mastering the latest AR tools and techniques, to maintain the
+                  pace with this fast-evolving field.
                 </p>
               </div>
             </div>

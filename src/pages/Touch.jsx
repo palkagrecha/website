@@ -1,7 +1,24 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-
+import { useState } from "react";
 const Touch = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+
+  const [address, setAddress] = useState("");
+
+  const [phone, setPhone] = useState("");
+
+  const [message, setMessage] = useState("");
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(name, email, message);
+    setName("");
+    setEmail("");
+    setAddress("");
+    setMessage("");
+    setPhone("");
+  };
   return (
     <>
       <div className="touch">
@@ -11,16 +28,17 @@ const Touch = () => {
               <div className="row touchForm">
                 <h3>Contact Our Team</h3>
                 <div className="row">
-                  <form>
+                  <form onSubmit={handleSubmit}>
                     <div className="mb-1 formHeadingLabel">
-                      <label for="exampleInputEmail1" class="form-label">
+                      <label for="exampleInputName" class="form-label">
                         Your Name
                       </label>
                       <input
+                        value={name}
                         type="text"
                         className="form-control"
-                        id="exampleInputEmail1"
-                        aria-describedby="emailHelp"
+                        id="exampleInputName"
+                        onChange={(e) => setName(e.target.value)}
                       />
                     </div>
 
@@ -30,47 +48,46 @@ const Touch = () => {
                       </label>
                       <input
                         type="email"
+                        value={email}
                         className="form-control"
                         id="exampleInputEmail1"
-                        aria-describedby="emailHelp"
+                        onChange={(e) => setEmail(e.target.value)}
                       />
-                      <div id="emailHelp" className="form-text">
-                        We'll never share your email with anyone else.
-                      </div>
                     </div>
                     <div className="mb-1 formHeadingLabel">
-                      <label for="exampleInputEmail1" class="form-label">
+                      <label for="exampleInputAddress" class="form-label">
                         Your Address
                       </label>
                       <input
                         type="text"
+                        value={address}
                         className="form-control"
-                        id="exampleInputEmail1"
-                        aria-describedby="emailHelp"
+                        id="exampleInputAddress"
+                        onChange={(e) => setAddress(e.target.value)}
                       />
                     </div>
                     <div className="mb-1 formHeadingLabel">
-                      <label for="exampleInputEmail1" class="form-label">
+                      <label for="exampleInputPhone" class="form-label">
                         Your Phone No
                       </label>
                       <input
                         type="number"
+                        value={phone}
                         className="form-control"
-                        id="exampleInputEmail1"
-                        aria-describedby="emailHelp"
+                        id="exampleInputPhone"
+                        onChange={(e) => setPhone(e.target.value)}
                       />
                     </div>
                     <div className="mb-1 formHeadingLabel">
-                      <label
-                        for="exampleFormControlTextarea1"
-                        class="form-label"
-                      >
+                      <label for="exampleFormControlMessage" class="form-label">
                         Message
                       </label>
                       <textarea
                         className="form-control"
-                        id="exampleFormControlTextarea1"
+                        value={message}
+                        id="exampleFormControlMessage"
                         rows="3"
+                        onChange={(e) => setMessage(e.target.value)}
                       ></textarea>
                     </div>
 
