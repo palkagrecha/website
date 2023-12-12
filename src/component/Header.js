@@ -8,7 +8,10 @@ const Header = () => {
     <>
       <Navbar expand="lg" id="back_color_set">
         <Container fluid>
-          <Navbar.Brand onClick={() => navigate("/")} className="brandColor">
+          <Navbar.Brand
+            onClick={() => navigate("/")}
+            className="brandColor mx-4"
+          >
             Pal Kagrecha
           </Navbar.Brand>
           <Navbar.Toggle
@@ -16,7 +19,7 @@ const Header = () => {
             className="text-white"
           />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto nav_name mt-2" id="navDesign">
+            <Nav className="ms-auto nav_name mt-2" id="navDesign">
               <Link to="/about">About</Link>
               <Link to="/service">Service</Link>
 

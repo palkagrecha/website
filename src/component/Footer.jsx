@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <>
       <div className="footeer ">
-        <div className="row text-center text-white">
-          <div className="foot position-relative">
+        <div className=" text-center text-white py-2">
+          <div className="foot ">
             <div className="companyName">
               <p>
                 <b>ar@biancagarutti.com</b>

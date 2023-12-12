@@ -106,7 +106,7 @@ const Home = () => {
           </title>
         </Helmet>
       </div>
-      <section className="upper">
+      <section className="upper py-4">
         <div className="container py-5  ">
           <div className="row flex-wrap-reverse ">
             <div className="col-sm-7" id="forsmallDevice">
