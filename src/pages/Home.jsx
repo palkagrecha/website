@@ -100,10 +100,7 @@ const Home = () => {
             content="AR solutions, gaming AR, entertainment experiences, education technology, healthcare applications"
           />
           <meta name="author" content="Pal Kagrecha" />
-          <title>
-            {" "}
-            Elevate Your Projects with Expert Augmented Reality Solutions
-          </title>
+          <title> Pal Kagrecha - AR Developer</title>
         </Helmet>
       </div>
       <section className="upper py-4">
