@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="foot ">
             <div className="companyName">
               <p>
-                <b>ar@biancagarutti.com</b>
+                <b>work@palkagrecha.com</b>
               </p>
             </div>
             <div className="setLastBottom">

@@ -105,7 +105,7 @@ const Home = () => {
           <title> Pal Kagrecha - AR Developer</title>
         </Helmet>
       </div>
-      <section className="upper py-4">
+      <section className="upper py-5">
         <div className="container py-5  ">
           <div className="row flex-wrap-reverse ">
             <div className="col-sm-7" id="forsmallDevice">

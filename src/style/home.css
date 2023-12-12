@@ -35,7 +35,8 @@ body::-webkit-scrollbar {
 }
 
 .description {
-    line-height: 15px;
+    line-height: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .description span {
