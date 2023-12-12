@@ -166,6 +166,10 @@ body::-webkit-scrollbar {
     margin-top: 5px;
 }
 
+.diamond {
+    display: none;
+}
+
 /* Media Queries for Responsive Design */
 
 @media screen and (max-width: 892px) {
@@ -179,6 +183,14 @@ body::-webkit-scrollbar {
         width: 250px;
         top: 0px;
         left: -10px;
+    }
+
+    .description {
+        width: 95%;
+    }
+
+    .diamond {
+        display: block;
     }
 }
 

@@ -368,7 +368,7 @@ const Project = () => {
                   onClick={() => handleOpen(x)}
                 >
                   <div className="row playVideo_auto1 mx-1">
-                    <video autoPlay muted loop>
+                    <video autoPlay muted loop className="projectVideo">
                       <source src={x.videoLink} type="video/mp4" />
                     </video>
                   </div>

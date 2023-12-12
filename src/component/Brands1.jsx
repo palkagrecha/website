@@ -14,7 +14,7 @@ const Brands1 = ({ title, logo }) => {
 
             <div className=" my-5 row brand_logo d-flex justify-content-center ">
               {logo?.map((x) => (
-                <div className="col-md-3 mt-1 ml-2 at575BrandLogo">
+                <div className="col-md-3 mt-1 ml-3 at575BrandLogo">
                   <img src={x.imgUrl} alt={x.name} />
                 </div>
               ))}

@@ -71,7 +71,7 @@
 
 .playVideo_auto1 video {
   padding: 0 !important;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   margin: 0 !important;
   /* margin-top: -74px !important; */
 
@@ -86,6 +86,11 @@
 
 .modelVideo video {
   border-radius: 20px !important;
+}
+
+.projectVideo {
+  border-radius: 90px !important;
+  height: 500px;
 }
 
 @media screen and (max-width:1199px) {

@@ -8,6 +8,8 @@ import { FaSnapchatGhost } from "react-icons/fa";
 import Service from "../component/Service";
 import Brands1 from "../component/Brands1";
 import PlayVideo from "../component/PlayVideo";
+import Typewriter from "typewriter-effect";
+
 import { Helmet } from "react-helmet";
 const Home = () => {
   const navigate = useNavigate();
@@ -118,13 +120,16 @@ const Home = () => {
               </div>
               <div className="row subtitle my-1 flex-wrap-reverse">
                 <h5>
-                  UI / UX Designer and Graphics Designer
-                  {/* <Typed
-                    strings={["UI / UX Designer and Graphics Designer"]}
-                    typeSpeed={40}
-                    backSpeed={50}
-                    loop
-                  /> */}
+                  <Typewriter
+                    className="text-center"
+                    options={{
+                      strings: ["AR - Developer", "A Designer", "A Creator"],
+                      autoStart: true,
+                      loop: true,
+                      cursor: "",
+                      wrapperClassName: "typewriterpara",
+                    }}
+                  />
                 </h5>
               </div>
               <div className="row my-2 flex-wrap-reverse atMobile">
