@@ -47,7 +47,15 @@ const Project = () => {
         "https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702271181/Website%20Videos/Personal/Trippin_klgtxv.mp4",
     },
     {
-      name: "Rahul Kumar",
+      name: "ScreenSave",
+      through: "by @palkagrecha",
+      point: [
+        "“Coinbase kicked off the Super Bowl with a simple ad featuring a QR code styled like the bouncing icon of a DVD screensaver.",
+        "Well what if we could create our own screensave-errrr, using an AR Effect?",
+        "When the user taps on the screen the bouncing mechanism starts. When it touches the user’s device border it changes its color.",
+        "Just like how it used to be in the earlier DVD player’s screensaver.",
+        "Users can add the media from their gallery as well. The dimensions of the plane will get adjusted according to the user’s smartphone dimensions or the media added by the users from the gallery.",
+      ],
       type: "personal",
       underType: "snap",
       videoLink:
@@ -103,14 +111,29 @@ const Project = () => {
         "https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702271005/Website%20Videos/Client/DiwaliRangoli_a0nz7k.mp4",
     },
     {
-      name: "Sohan Kumar",
+      name: "Uncharted Game",
+      through: "by @palkagrecha",
+      point: [
+        "An immersive gaming experience created for the client SONY Pictures India, the top Hollywood Studio in India, for the recent movie “Uncharted”.",
+        "This AR Gaming Effect was created in collaboration with Experiential Etc.",
+        "The gaming experience starts by blowing a kiss.",
+        "User need to tilt their head from side to side to collect the treasure coins and avoid from the stones (obstacles) at the same time.",
+        "The user has 3 lifelines to collect the treasure and score highest.",
+      ],
       type: "client",
       underType: "snap",
       videoLink:
         "https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702270995/Website%20Videos/Client/UnchartedGame_qn0sam.mp4",
     },
     {
-      name: "Ram babu Kumar",
+      name: "Review a Movie",
+      through: "by @palkagrecha",
+      point: [
+        "This AR Effect was created in collaboration with [Meta India](https://www.instagram.com/metaindia/).",
+        "Love watching cinema and talking about it?",
+        "#ReviewAMovie on reels.",
+        "Users can share their movie experience using this AR Effect which is created for an e-sports creators aka Triggered Insaan",
+      ],
       type: "client",
       underType: "snap",
       videoLink:

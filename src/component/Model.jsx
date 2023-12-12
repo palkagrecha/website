@@ -29,27 +29,24 @@ const Model = ({ open, setOpen, modelData }) => {
               </div>
             </div>
 
-            <div className="col-sm-7 p-2 modelData">
-              <h3 className="text-white">{modelData.name}</h3>
-              <p className="text-white mt-2">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Similique dolorum modi mollitia accusamus odio blanditiis fugit,
-                consectetur eaque eos? Doloremque distinctio vitae ipsa fugiat
-                quas laboriosam consectetur aliquam earum. Atque! Laudantium
-                numquam quos placeat et ab adipisci necessitatibus hic aliquam
-                maiores quae doloremque sed doloribus qui quidem laborum
-                corporis, vel consectetur dolorem ratione ipsa veniam
-                voluptatibus sint? Doloremque, at unde?
+            <div className="col-sm-7 p-2 modelData text-center">
+              <h3 className="text-white">{modelData?.name}</h3>
+              <p className="text-white">
+                {modelData?.through ? modelData?.through : "by @palkagrecha"}
               </p>
 
-              <button className="btn bg-primary text-white modelBtn">
-                Instagram
-              </button>
-              <button className="btn bg-primary text-white mx-3 modelBtn">
-                Facebook
-              </button>
-              <button className="btn bg-primary text-white modelBtn">
-                Youtube
+              <div className="text-white mt-2">
+                <ul>
+                  {modelData?.point?.map((x, i) => (
+                    <li>
+                      <p className="text-white">{x}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <button className="btn bg-primary text-white modelBtn m-auto">
+                TRY IT OUT
               </button>
             </div>
           </div>
