@@ -5,7 +5,8 @@ import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import { useState } from "react";
 import { Helmet } from "react-helmet";
-import Spinner from "../component/Spinner";
+import Swal from "sweetalert2";
+
 const Project = () => {
   const [open, setOpen] = useState(false);
   const [modelData, setModelData] = useState({});
@@ -255,7 +256,8 @@ const Project = () => {
     }
   };
   if (arr.length < 1 || arr === "undefined") {
-    return <Spinner />;
+    Swal.fire("Comming Soon");
+    setArr(arrData);
   }
   return (
     <>
