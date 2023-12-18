@@ -32,8 +32,8 @@ function App() {
           <Route path="/touch" element={<Touch />} />
           <Route path="/project" element={<Project />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
-      <Footer />
     </div>
   );
 }

@@ -1,8 +1,9 @@
-.upper,
-.footeer {
+.upper {
     background-color: #21272F;
     width: 100vw;
 }
+
+
 
 body::-webkit-scrollbar {
     display: none;
@@ -35,6 +36,7 @@ body::-webkit-scrollbar {
 }
 
 .description {
+    text-align: justify !important;
     line-height: 20px;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -42,6 +44,8 @@ body::-webkit-scrollbar {
 .description span {
     color: white;
     font-size: small;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .btn_set button {
@@ -117,9 +121,23 @@ body::-webkit-scrollbar {
     align-items: center;
     overflow: hidden;
     border-radius: 80px;
+    /* animation: floater 2s infinite;
+    transition: ease 1s; */
 }
 
+/* @keyframes floater {
 
+    0%,
+    100% {
+        transform: translateY(-2%);
+        transition: ease 1s;
+    }
+
+    50% {
+        transform: translateY(2%);
+        transition: ease 1s;
+    }
+} */
 
 #owner {
     height: 450px;
@@ -131,10 +149,13 @@ body::-webkit-scrollbar {
 }
 
 /* footer */
-
 .footeer {
-    padding: 75px 0 60px 0;
+    background-color: #252d38;
+    padding: 20px 0;
+    width: 100vw;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
+
 
 .setLastBottom {
     position: absolute;
@@ -156,6 +177,13 @@ body::-webkit-scrollbar {
     padding: 0;
     border-radius: 50%;
     background-color: rgb(53, 103, 101);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialLogo a {
+    margin-bottom: 5px;
 }
 
 .foot .socialLogo {
@@ -165,6 +193,40 @@ body::-webkit-scrollbar {
 .foot .companyName p {
     align-self: center;
     margin-top: 5px;
+    cursor: pointer;
+
+}
+
+.foot .companyName p a {
+    color: white
+}
+
+.foot .companyName p a:hover {
+    color: grey
+}
+
+.foot .companyName p:hover {
+    color: grey;
+}
+
+.foot .companyName p b {
+    font-size: larger;
+}
+
+.meDeveloper {
+    cursor: pointer !important;
+    color: white;
+}
+
+.navFooter a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.navFooter a:hover {
+    color: rgb(0, 189, 149);
+    border-bottom: 1px solid rgb(0, 189, 149);
 }
 
 .diamond {
@@ -207,9 +269,30 @@ body::-webkit-scrollbar {
     }
 }
 
+#iconMobile {
+    display: none !important;
+}
+
 @media screen and (max-width: 575px) {
     #responseAtId {
         display: block !important;
+    }
+
+    #iconMobile {
+        display: flex !important;
+    }
+
+    .space {
+        margin: 0 5px;
+    }
+
+    .setLastBottom {
+        display: none !important;
+    }
+
+    .footerDeveloper {
+        width: auto !important;
+        margin: auto !important;
     }
 
     .clip_path {

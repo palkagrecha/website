@@ -81,11 +81,11 @@ const Home = () => {
         "https://static.wixstatic.com/media/49687e_8e028c51f88d429bb5cc1481d7d15925~mv2.png/v1/fill/w_193,h_248,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/IMG_5222_PNG.png",
       name: "meta",
     },
-    {
-      imgUrl:
-        "https://static.wixstatic.com/media/49687e_f8956150fc834bc1b438493a27bbebbd~mv2.jpeg/v1/fill/w_248,h_248,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202023-05-21%20at%2011_27_46.jpeg",
-      name: "tomica",
-    },
+    // {
+    //   imgUrl:
+    //     "https://static.wixstatic.com/media/49687e_f8956150fc834bc1b438493a27bbebbd~mv2.jpeg/v1/fill/w_248,h_248,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202023-05-21%20at%2011_27_46.jpeg",
+    //   name: "tomica",
+    // },
   ];
 
   return (
