@@ -2,10 +2,12 @@
     background-color: rgb(23, 28, 35);
 }
 
-.achiev_Heading h3 {
+.achiev_Heading h1 {
     color: white;
-    font-weight: 200;
+    font-weight: 900;
 }
+
+
 
 @media screen and (max-width: 575px) {
 

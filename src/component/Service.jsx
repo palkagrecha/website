@@ -1,8 +1,7 @@
 import React from "react";
-import { RiComputerFill } from "react-icons/ri";
 import { SiTaichigraphics } from "react-icons/si";
 import { SiBackendless } from "react-icons/si";
-
+import { TbColorFilter } from "react-icons/tb";
 const Service = () => {
   return (
     <>
@@ -23,17 +22,17 @@ const Service = () => {
           <div className="row mt-5 service_provide d-flex justify-content-between">
             <div className="col-md-3 space_bw at575Div">
               <div className="row text-center my-2">
-                <RiComputerFill fontSize={70} color="aqua" />
+                <TbColorFilter fontSize={70} color="aqua" />
               </div>
               <div className="row text-center my-2">
-                <h5 className="service_title">Augmented Reality</h5>
+                <h5 className="service_title">Augmented Reality Effect</h5>
               </div>
               <div className="row text-center my-2">
                 <div className="service_ds ">
                   <small>
-                    Crafting captivating AR experiences for 3+ years. Elevate
-                    gaming, entertainment, education, and healthcare projects
-                    with expertise.
+                    Elevate your social media presence with captivating AR
+                    effects designed for Instagram, Facebook, Snapchat, and
+                    Messenger.
                   </small>
                 </div>
               </div>
@@ -43,14 +42,13 @@ const Service = () => {
                 <SiTaichigraphics fontSize={70} color="aqua" />
               </div>
               <div className="row text-center my-2">
-                <h5 className="service_title">Web Development</h5>
+                <h5 className="service_title">Augmented Reality Ads</h5>
               </div>
               <div className="row text-center my-2">
                 <div className="service_ds ">
                   <small>
-                    Boost your online presence with 3+ years of expert Web
-                    Development. Let's create dynamic, responsive websites for
-                    your digital success.
+                    Boost your brand visibility with dynamic AR advertisements
+                    tailored for Instagram, Facebook, and Snapchat.
                   </small>
                 </div>
               </div>
@@ -60,13 +58,14 @@ const Service = () => {
                 <SiBackendless fontSize={70} color="aqua" />
               </div>
               <div className="row text-center my-2">
-                <h5 className="service_title">App Development</h5>
+                <h5 className="service_title">AR application & WebAR</h5>
               </div>
               <div className="row text-center my-2">
                 <div className="service_ds ">
                   <small>
-                    Crafting cutting-edge mobile apps for 3+ years. Elevate your
-                    digital presence with our expert App Development solutions.
+                    ransform your ideas into reality with our expertise in
+                    developing cutting-edge AR applications for both Android and
+                    iOS platforms.
                   </small>
                 </div>
               </div>

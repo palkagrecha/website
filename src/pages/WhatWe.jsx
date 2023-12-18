@@ -23,14 +23,11 @@ const WhatWe = () => {
         <div className="container ">
           <div className="row mx-5">
             <h1 className="about_title">
-              <span className="aboutIntro1">What</span>
-              <span className=" sizeReduce mx-3">We</span>
-
-              <span className=" sizeReduce">do</span>
+              <span className="aboutIntro1 mt-3">What we do</span>
             </h1>
           </div>
 
-          <div className=" mx-5 row my-5 py-5">
+          <div className=" mx-5 row my-1 py-5">
             <h2 className="aboutSubtitle">
               Crafting immersive AR experiences for gaming, entertainment,
               education, and healthcare. Elevate your projects with our 3+ years
@@ -40,21 +37,21 @@ const WhatWe = () => {
 
           <div className=" py-5 row m-5 d-flex justify-content-between column-gap-1">
             <div className="col-md-3 count">
-              <h1>+500</h1>
+              <h1>500+</h1>
               <p>Effects Delivered</p>
             </div>
 
             <div className="col-md-3 count">
-              <h1>+20 bi</h1>
+              <h1>20bi+</h1>
               <p>Impressions</p>
             </div>
             <div className="col-md-3 count">
-              <h1>+1 bi</h1>
+              <h1>1bi+</h1>
               <p>Shares</p>
             </div>
 
             <div className="col-md-3 count">
-              <h1>+500M</h1>
+              <h1>500M+</h1>
               <p>user generated content</p>
             </div>
           </div>

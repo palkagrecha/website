@@ -30,36 +30,36 @@ const Footer = () => {
                   <Link to="/touch">Contact</Link>|
                   <Link to="/service">Service</Link>
                 </p>
-              </p>
-              <p className="d-flex justify-content-center " id="iconMobile">
-                <div className="space">
-                  {" "}
-                  <a
-                    href="https://www.instagram.com/pal.techxr/"
-                    target="blank"
-                  >
-                    <BsInstagram color="white" fontSize={20} />
-                  </a>
-                </div>
-                <div className="space">
-                  <a
-                    href="https://www.linkedin.com/in/pal-kagrecha/"
-                    target="blank"
-                  >
-                    <FaLinkedin color="white" fontSize={20} />
-                  </a>
-                </div>
-                <div className="space">
-                  <a
-                    href="https://www.snapchat.com/add/pal.kagrecha"
-                    target="blank"
-                  >
-                    <FaSnapchatGhost color="white" fontSize={20} />
-                  </a>
-                </div>
-                <div className="space">
-                  <FaFacebook color="white" fontSize={20} />
-                </div>
+                <p className="d-flex justify-content-center " id="iconMobile">
+                  <div className="space">
+                    {" "}
+                    <a
+                      href="https://www.instagram.com/pal.techxr/"
+                      target="blank"
+                    >
+                      <BsInstagram color="white" fontSize={20} />
+                    </a>
+                  </div>
+                  <div className="space">
+                    <a
+                      href="https://www.linkedin.com/in/pal-kagrecha/"
+                      target="blank"
+                    >
+                      <FaLinkedin color="white" fontSize={20} />
+                    </a>
+                  </div>
+                  <div className="space">
+                    <a
+                      href="https://www.snapchat.com/add/pal.kagrecha"
+                      target="blank"
+                    >
+                      <FaSnapchatGhost color="white" fontSize={20} />
+                    </a>
+                  </div>
+                  <div className="space">
+                    <FaFacebook color="white" fontSize={20} />
+                  </div>
+                </p>
               </p>
             </div>
             <div className="setLastBottom">

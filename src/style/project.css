@@ -15,18 +15,33 @@
   font-weight: 600;
   color: white;
   margin: 10px;
-  border-radius: 20px;
+  border-radius: 7px;
+  border: 0 !important;
+  outline: 0 !important;
 }
 
-
+.dropdown-menu {
+  background-color: black !important;
+  border: 0 !important;
+  margin-top: 10px !important;
+  padding: 10px 5px;
+}
 
 .dropdown-button-dark-example2:hover {
-  background-color: rgb(33, 75, 61);
-  color: white;
+  background-color: rgb(33, 75, 61) !important;
+  color: white !important;
 }
 
 .dropdown-item.active {
-  background-color: #213044;
+  background-color: rgb(17, 201, 141);
+}
+
+.dropdown-item {
+  margin: 4px 0;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(17, 201, 141) !important;
 }
 
 .nameProject {

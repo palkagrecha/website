@@ -1,6 +1,7 @@
 import React from "react";
 
 const Brands1 = ({ title, logo }) => {
+  console.log("logo", logo);
   return (
     <>
       <section className="brand1">

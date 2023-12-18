@@ -9,11 +9,11 @@ const Achievement = () => {
         <div className="container">
           <div className="row">
             <div className="row achiev_Heading">
-              <h3>Achievement</h3>
+              <h1>Achievement</h1>
             </div>
             <div className="row achievementList">
-              <div className="row mt-5 service_provide d-flex justify-content-between">
-                <div className="col-md-3 m-1 space_bw at575aboutAchivement">
+              <div className="row mt-5 service_provide d-flex justify-content-between achievementMargin">
+                <div className="col-md-3 m-1 space_bw at575aboutAchivement my-3">
                   <div className="row text-center my-2">
                     <BsMicrosoftTeams fontSize={70} color="aqua" />
                   </div>
@@ -29,7 +29,7 @@ const Achievement = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-3 m-1 space_bw at575aboutAchivement">
+                <div className="col-md-3 m-1 space_bw at575aboutAchivement  my-3">
                   <div className="row text-center my-2">
                     <SiSaltproject fontSize={70} color="aqua" />
                   </div>
@@ -46,7 +46,7 @@ const Achievement = () => {
                   </div>
                 </div>
 
-                <div className="col-md-3 m-1  space_bw at575aboutAchivement">
+                <div className="col-md-3 m-1  space_bw at575aboutAchivement  my-3">
                   <div className="row text-center my-2">
                     <BsPersonFillAdd fontSize={70} color="aqua" />
                   </div>
@@ -63,7 +63,7 @@ const Achievement = () => {
                   </div>
                 </div>
 
-                <div className="col-md-3 m-1 space_bw at575aboutAchivement">
+                <div className="col-md-3 m-1 space_bw at575aboutAchivement  my-3">
                   <div className="row text-center my-2">
                     <BsPersonFillAdd fontSize={70} color="aqua" />
                   </div>
@@ -80,7 +80,7 @@ const Achievement = () => {
                   </div>
                 </div>
 
-                <div className="col-md-3 m-1  space_bw at575aboutAchivement">
+                <div className="col-md-3 m-1  space_bw at575aboutAchivement  my-3">
                   <div className="row text-center my-2">
                     <BsPersonFillAdd fontSize={70} color="aqua" />
                   </div>
@@ -97,7 +97,7 @@ const Achievement = () => {
                   </div>
                 </div>
 
-                <div className="col-md-3 m-1 space_bw at575aboutAchivement">
+                <div className="col-md-3 m-1 space_bw at575aboutAchivement  my-3">
                   <div className="row text-center my-2">
                     <BsPersonFillAdd fontSize={70} color="aqua" />
                   </div>

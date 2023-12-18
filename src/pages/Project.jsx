@@ -5,6 +5,7 @@ import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import { useState } from "react";
 import { Helmet } from "react-helmet";
+import Spinner from "../component/Spinner";
 const Project = () => {
   const [open, setOpen] = useState(false);
   const [modelData, setModelData] = useState({});
@@ -253,7 +254,9 @@ const Project = () => {
       setArr(afterFilter);
     }
   };
-
+  if (arr.length < 1 || arr === "undefined") {
+    return <Spinner />;
+  }
   return (
     <>
       <div>

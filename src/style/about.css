@@ -16,8 +16,13 @@
     font-size: 4rem;
 }
 
+.at575px img {
+    border-radius: 50px !important;
+}
+
 .aboutDs p {
     color: white;
+    text-align: justify;
 }
 
 @media screen and (max-width: 1187px) {

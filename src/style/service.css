@@ -15,6 +15,11 @@
     padding: 20px;
     border-radius: 10px;
     background-color: #21272F;
+    transition: all 0.9s;
+}
+
+.space_bw:hover {
+    transform: scale(1.1);
 }
 
 .profession {

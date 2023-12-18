@@ -43,7 +43,9 @@ const Touch = () => {
           <div className="row">
             <div className="col-6 mt-3 responsiveContact">
               <div className="row touchForm">
-                <h3>Contact Our Team</h3>
+                <h2>
+                  <b>Get in touch</b>
+                </h2>
                 <div className="row">
                   <form onSubmit={handleSubmit}>
                     <div className="mb-1 formHeadingLabel">
