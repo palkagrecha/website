@@ -373,17 +373,16 @@ const Project = () => {
                   onClick={() => handleOpen(x)}
                 >
                   <div className="row playVideo_auto1 mx-1">
-                    <video autoPlay muted loop className="projectVideo">
+                    <video
+                      autoPlay
+                      playsinline={true}
+                      muted
+                      loop
+                      className="projectVideo"
+                    >
                       <source src={x.videoLink} type="video/mp4" />
                     </video>
                   </div>
-                  {/* <div className="row nameProject text-center mt-3">
-                    <h6>{x.name}</h6>
-
-                    <span>
-                      {x.type} / {x.underType}
-                    </span>
-                  </div> */}
                 </div>
               ))}
             </div>

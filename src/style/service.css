@@ -50,4 +50,8 @@
     .at575Div {
         margin: 20px 0px 20px 0px;
     }
+
+    .space_bw:hover {
+        transform: scale(1) !important;
+    }
 }

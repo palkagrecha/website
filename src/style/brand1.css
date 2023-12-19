@@ -7,6 +7,14 @@
   font-weight: 500;
 }
 
+.at575BrandLogo img {
+  height: 150px;
+  width: 250px;
+  margin: 10px 0px 10px 0;
+  margin: auto;
+  object-fit: contain;
+}
+
 @media screen and (max-width: 575px) {
   .brand_Title {
     color: white;

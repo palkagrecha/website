@@ -87,10 +87,19 @@
 .playVideo_auto1 video {
   padding: 0 !important;
   /* border-radius: 20px; */
-  margin: 0 !important;
+  /* margin: 0 !important; */
+  border-radius: 2rem;
+  margin: 10px 10px;
+  width: 300px;
+  cursor: pointer;
   /* margin-top: -74px !important; */
 
 }
+
+/* .projectVideo {
+  border-radius: 90px !important;
+  height: 500px;
+} */
 
 .project_list {
   display: flex;
@@ -103,10 +112,7 @@
   border-radius: 20px !important;
 }
 
-.projectVideo {
-  border-radius: 90px !important;
-  height: 500px;
-}
+
 
 @media screen and (max-width:1199px) {
   .nameProject {
