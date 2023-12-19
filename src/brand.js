@@ -5,7 +5,7 @@ export let brandTitle1 = `
   
   `;
 export let brandTitle2 = `
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, aut! Unde dolor corrupti excepturi tenetur reprehenderit delectus voluptatem ex, consectetur eligendi commodi odio ea debitis repudiandae sit harum corporis sequi?
+            Experience innovation with Meta Certified AR, unlocking limitless possibilities in augmented reality. Elevate your online presence with cutting-edge immersive experiences.
   
   `;
 
@@ -27,7 +27,7 @@ export let BrandsLogo = [
   },
   {
     imgUrl:
-      "https://res.cloudinary.com/dxhvvxfqf/image/upload/v1702931069/Client-logo/jfqel6cmgf4ge6r2blwp.png",
+      "https://res.cloudinary.com/dxhvvxfqf/image/upload/f_auto,q_auto/v1/Client-logo/penj4wi7msiegrmmemkv",
     name: "meta",
   },
   //   {

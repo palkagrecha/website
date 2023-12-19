@@ -1,5 +1,7 @@
 import React from "react";
 import Profile from "../images/PalKagrechaProfessionsalPicAbout.jpg";
+import { brandTitle2, advancedLogo } from "../brand";
+import Brands1 from "../component/Brands1";
 
 import Achievement from "../component/Achievement";
 import { Helmet } from "react-helmet";
@@ -70,6 +72,7 @@ const About = () => {
         </div>
       </section>
       <Achievement />
+      <Brands1 title={brandTitle2} logo={advancedLogo} />
     </>
   );
 };

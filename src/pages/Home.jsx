@@ -150,7 +150,7 @@ const Home = () => {
       <Service />
       <PlayVideo />
       <Brands1 title={brandTitle1} logo={BrandsLogo} />
-      <Brands1 title={brandTitle2} logo={advancedLogo} />
+      {/* <Brands1 title={brandTitle2} logo={advancedLogo} /> */}
     </>
   );
 };

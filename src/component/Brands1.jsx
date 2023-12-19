@@ -14,9 +14,9 @@ const Brands1 = ({ title, logo }) => {
             </div>
 
             <div className=" my-5 row brand_logo d-flex justify-content-center align-items-center  m-0 p-0">
-              {logo?.map((x) => (
-                <div className="col-md-3 mt-1 ml-3 at575BrandLogo">
-                  <img src={x.imgUrl} alt={x.name} />
+              {logo?.map((x, i) => (
+                <div className="col-md-3 mt-1 ml-3 at575BrandLogo" key={i}>
+                  <img src={x.imgUrl} alt={x.name} loading="lazy" />
                 </div>
               ))}
             </div>
