@@ -17,12 +17,12 @@ const Home = () => {
 
   return (
     <>
-      <div>
+      <>
         <Helmet>
           <meta charSet="utf-8" />
           <meta
             name="description"
-            content="Transform ideas into captivating AR experiences. Specialists in gaming, entertainment, education, and healthcare solutions. Explore immersive possibilities with over 3 years of expertise"
+            content="Pal Kagrecha transforms ideas into captivating AR experiences. Experts in gaming, entertainment, education, and healthcare with 3+ years of expertise."
           />
           <meta
             name="keywords"
@@ -36,8 +36,9 @@ const Home = () => {
           />
           <meta name="author" content="Pal Kagrecha" />
           <title> Pal Kagrecha - AR Developer</title>
+          <link rel="canonical" href="https://pal-portfolio.vercel.app/" />
         </Helmet>
-      </div>
+      </>
       <section className="upper py-5">
         <div className="container py-5  ">
           <div className="row flex-wrap-reverse ">
@@ -91,7 +92,15 @@ const Home = () => {
                 <div className="hexagon-container " id="animationFloatMobile">
                   <div className="clip_path">
                     <div id="mobileFloat ">
-                      <img src={Profile} alt="owner" id="owner" />
+                      <img
+                        src={Profile}
+                        alt="Pal Kagrecha"
+                        id="owner"
+                        height="450"
+                        width="450"
+                        title="owner of this platform"
+                        loading="lazy"
+                      />
                     </div>
                   </div>
                 </div>

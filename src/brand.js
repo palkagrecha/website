@@ -14,21 +14,25 @@ export let BrandsLogo = [
     imgUrl:
       "https://res.cloudinary.com/dxhvvxfqf/image/upload/v1702929912/Client-logo/z6up9ok50hpujx001op5.png",
     name: "Snap",
+    title: "Snap",
   },
   {
     imgUrl:
       "https://res.cloudinary.com/dxhvvxfqf/image/upload/f_auto,q_auto/v1/Client-logo/uhihvfkgkklglxhqhu7v",
     name: "Flipkart",
+    title: "Flipkart",
   },
   {
     imgUrl:
       "https://res.cloudinary.com/dxhvvxfqf/image/upload/f_auto,q_auto/v1/Client-logo/lff6jrvumxjnxk40edzo",
     name: "ClipHealth",
+    title: "ClipHealth",
   },
   {
     imgUrl:
       "https://res.cloudinary.com/dxhvvxfqf/image/upload/f_auto,q_auto/v1/Client-logo/penj4wi7msiegrmmemkv",
     name: "meta",
+    title: "meta",
   },
   //   {
   //     imgUrl:

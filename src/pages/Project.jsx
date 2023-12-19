@@ -47,7 +47,7 @@ const Project = () => {
           <meta charSet="utf-8" />
           <meta
             name="description"
-            content="Explore the showcase of Pal Kagrecha projects featuring cutting-edge VR effects. Dive into a world where innovation meets virtual reality, experiencing the extraordinary outcomes of our expertise in crafting immersive and impactful applications."
+            content="Deliver awe-inspiring Augmented Reality effects to your audience. Elevate engagement and captivate users with our cutting-edge AR solutions. Transform reality seamlessly"
           />
           <meta
             name="keywords"
@@ -64,12 +64,21 @@ const Project = () => {
           />
           <meta name="author" content="Pal Kagrecha" />
           <title> Projects - Immerse Yourself in VR Excellence</title>
+          <link
+            rel="canonical"
+            href="https://pal-portfolio.vercel.app/project"
+          />
         </Helmet>
       </div>
       <Model open={open} setOpen={setOpen} modelData={modelData} />
       <section className="project py-5">
         <div className="container-fluid" id="headerProject">
           <div className="row ">
+            <div className="row">
+              <h1 className="text-light">
+                <b>Augmented Reality Effect</b>
+              </h1>
+            </div>
             <div className="flex-row dropdown ">
               <DropdownButton
                 id="dropdown-button-dark-example2"
@@ -168,7 +177,15 @@ const Project = () => {
                       playsinline={true}
                       muted
                       loop
+                      width="300"
+                      poster="https://www.shutterstock.com/image-vector/man-wearing-virtual-reality-glasses-600nw-790270129.jpg"
+                      preload="auto"
                       className="projectVideo"
+                      aria-label={
+                        x?.point[0] === "undefined" || ""
+                          ? "Augmented Reality Effect by Pal Kagrecha"
+                          : x?.point[0]
+                      }
                     >
                       <source src={x.videoLink} type="video/mp4" />
                     </video>
