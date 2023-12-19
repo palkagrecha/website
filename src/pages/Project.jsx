@@ -46,11 +46,11 @@ const Project = () => {
         <Helmet>
           <meta charSet="utf-8" />
           <meta
-            property="og:description"
+            name="description"
             content="Deliver awe-inspiring Augmented Reality effects to your audience. Elevate engagement and captivate users with our cutting-edge AR solutions. Transform reality seamlessly"
           />
           <meta
-            property="og:title"
+            name="title"
             content=" Pal Kagrecha Projects - Immerse Yourself in VR Excellence "
           ></meta>
           <meta
