@@ -53,6 +53,15 @@ const Project = () => {
             name="keywords"
             content="Augmented Reality, AR experiences, Innovation, Digital Transformation, Pal Kagrecha, Expertise, Story, Values, Team, Technology"
           />
+          <meta
+            property="og:url"
+            content="https://pal-portfolio.vercel.app/project"
+          />
+          <meta
+            property="og:image"
+            itemprop="image"
+            content="https://pal-portfolio.vercel.app/static/media/PalKagrechaProfessionsalPicAbout.ef9ce083b56620892d96.jpg"
+          />
           <meta name="author" content="Pal Kagrecha" />
           <title> Projects - Immerse Yourself in VR Excellence</title>
         </Helmet>

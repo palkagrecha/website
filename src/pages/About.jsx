@@ -20,7 +20,17 @@ const About = () => {
             name="keywords"
             content="Augmented Reality, AR experiences, Innovation, Digital Transformation, Pal Kagrecha, Expertise, Story, Values, Team, Technology"
           />
+          <meta
+            property="og:url"
+            content="https://pal-portfolio.vercel.app/about"
+          />
+          <meta
+            property="og:image"
+            itemprop="image"
+            content="https://pal-portfolio.vercel.app/static/media/PalKagrechaProfessionsalPicAbout.ef9ce083b56620892d96.jpg"
+          />
           <meta name="author" content="Pal Kagrecha" />
+
           <title> About Us - Pioneering Augmented Reality Experiences</title>
         </Helmet>
       </div>
