@@ -1,6 +1,6 @@
 import React from "react";
 import Modal from "react-modal";
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 
 const Model = ({ open, setOpen, modelData }) => {
   const customStyles = {
@@ -15,7 +15,7 @@ const Model = ({ open, setOpen, modelData }) => {
   return (
     <div>
       <>
-        <Helmet>
+        {/* <Helmet>
           <meta
             name="description"
             content={
@@ -48,7 +48,7 @@ const Model = ({ open, setOpen, modelData }) => {
             rel="canonical"
             href="https://pal-portfolio.vercel.app/project"
           />
-        </Helmet>
+        </Helmet> */}
       </>
       <Modal
         id="modelHeight"
