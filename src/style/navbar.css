@@ -1,6 +1,6 @@
 #back_color_set {
     background-color: #21272F;
-
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .brandColor {

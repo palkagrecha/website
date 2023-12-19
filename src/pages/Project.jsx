@@ -146,14 +146,14 @@ const Project = () => {
                 </Dropdown.Item>
               </DropdownButton>
             </div>
-            <div className="project_list  mt-5   ">
+            <div className="project_list  mt-5  mx-0 p-0 ">
               {arr.map((x, i) => (
                 <div
-                  className="col-md-3  my-2 "
+                  className="col-md-3  my-2  m-0 p-0"
                   key={i}
                   onClick={() => handleOpen(x)}
                 >
-                  <div className="row playVideo_auto1 mx-1">
+                  <div className="row playVideo_auto1 mx-0   p-2">
                     <video
                       autoPlay
                       playsinline={true}

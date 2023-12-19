@@ -14,7 +14,7 @@
   font-size: large;
   font-weight: 600;
   color: white;
-  margin: 10px;
+  margin: 10px 5px;
   border-radius: 7px;
   border: 0 !important;
   outline: 0 !important;
@@ -68,38 +68,24 @@
 
 .dropdown {
   display: flex;
-  gap: 10px;
+  gap: 2px;
   flex-wrap: wrap;
 }
 
-.playVideo_auto1 {
-  /* border-radius: 20px;
-  border: 10px solid rgb(17, 201, 141);
-  padding: 0 !important;
-  margin: 0 !important;
-  height: 330px;
-  width: 260px; */
-  /* You can adjust the value as needed */
 
-  margin: 50px 40px;
-}
 
 .playVideo_auto1 video {
   padding: 0 !important;
-  /* border-radius: 20px; */
-  /* margin: 0 !important; */
+
   border-radius: 2rem;
-  margin: 10px 10px;
+  /* margin: 10px 10px; */
   width: 300px;
   cursor: pointer;
-  /* margin-top: -74px !important; */
+
 
 }
 
-/* .projectVideo {
-  border-radius: 90px !important;
-  height: 500px;
-} */
+
 
 .project_list {
   display: flex;

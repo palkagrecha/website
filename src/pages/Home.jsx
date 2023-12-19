@@ -9,7 +9,7 @@ import Service from "../component/Service";
 import Brands1 from "../component/Brands1";
 import PlayVideo from "../component/PlayVideo";
 import Typewriter from "typewriter-effect";
-import { BrandsLogo, brandTitle2, brandTitle1, advancedLogo } from "../brand";
+import { BrandsLogo, brandTitle1 } from "../brand";
 
 import { Helmet } from "react-helmet";
 const Home = () => {

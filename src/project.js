@@ -95,6 +95,123 @@ export const arrData = [
     videoLink:
       "https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702271173/Website%20Videos/Personal/Happy_Navratri_lgxgvj.mp4",
   },
+
+  {
+    name: "Rahul Kumar",
+    through: "by @palkagrecha",
+    point: [],
+    type: "personal",
+    underType: "snap",
+    videoLink:
+      "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/Pride_ray_l0myg2",
+  },
+
+  {
+    name: "Rahul Kumar",
+    through: "by @palkagrecha",
+    point: [],
+    type: "personal",
+    underType: "snap",
+    videoLink:
+      "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/HindiSwaarKid_sg80ph",
+  },
+
+  {
+    name: "Rahul Kumar",
+    through: "by @palkagrecha",
+    point: [],
+    type: "personal",
+    underType: "snap",
+    videoLink:
+      "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/PlumMartini_bzpwmp",
+  },
+
+  {
+    name: "Rahul Kumar",
+    through: "by @palkagrecha",
+    point: [],
+    type: "personal",
+    underType: "snap",
+    videoLink:
+      "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/MyDream_gyjtsl",
+  },
+  {
+    name: "Rahul Kumar",
+    through: "by @palkagrecha",
+    point: [],
+    type: "personal",
+    underType: "snap",
+    videoLink:
+      "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/Navi_Shades_uqffoc",
+  },
+
+  {
+    name: "Rahul Kumar",
+    through: "by @palkagrecha",
+    point: [],
+    type: "personal",
+    underType: "snap",
+    videoLink:
+      "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/HindiSwar_hhs1db",
+  },
+
+  {
+    name: "Rahul Kumar",
+    through: "by @palkagrecha",
+    point: [],
+    type: "personal",
+    underType: "snap",
+    videoLink:
+      "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/HennaARtPreview_vjqazs",
+  },
+
+  {
+    name: "Rahul Kumar",
+    through: "by @palkagrecha",
+    point: [],
+    type: "personal",
+    underType: "snap",
+    videoLink:
+      "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/FrontlineSketch_biwj6m",
+  },
+
+  {
+    name: "Rahul Kumar",
+    through: "by @palkagrecha",
+    point: [],
+    type: "personal",
+    underType: "snap",
+    videoLink:
+      "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/Halloween_GHost_r8urhm",
+  },
+  {
+    name: "Rahul Kumar",
+    through: "by @palkagrecha",
+    point: [],
+    type: "personal",
+    underType: "snap",
+    videoLink:
+      "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/Curves_kfflwc",
+  },
+  {
+    name: "Rahul Kumar",
+    through: "by @palkagrecha",
+    point: [],
+    type: "personal",
+    underType: "snap",
+    videoLink:
+      "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/Glow_borip6",
+  },
+  {
+    name: "Rahul Kumar",
+    through: "by @palkagrecha",
+    point: [],
+    type: "personal",
+    underType: "snap",
+    videoLink:
+      "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/GuessTheFoodDemo_hctjoc",
+  },
+
   {
     name: "shivam Kumar",
     through: "by @palkagrecha",
@@ -102,7 +219,7 @@ export const arrData = [
     type: "client",
     underType: "insta",
     videoLink:
-      "https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702271069/Website%20Videos/Client/AR_Game_Preview_ikr9el.mp4",
+      "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Client/AR_Game_Preview_ikr9el",
   },
   {
     name: "Roman Kumar",
