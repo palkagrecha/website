@@ -182,7 +182,7 @@ const Project = () => {
                       preload="auto"
                       className="projectVideo"
                       aria-label={
-                        x?.point[0] === "undefined" || ""
+                        x.point.length < 1
                           ? "Augmented Reality Effect by Pal Kagrecha"
                           : x?.point[0]
                       }

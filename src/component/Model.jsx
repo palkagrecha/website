@@ -1,5 +1,6 @@
 import React from "react";
 import Modal from "react-modal";
+import { Helmet } from "react-helmet";
 
 const Model = ({ open, setOpen, modelData }) => {
   const customStyles = {
@@ -13,6 +14,42 @@ const Model = ({ open, setOpen, modelData }) => {
   };
   return (
     <div>
+      <>
+        <Helmet>
+          <meta
+            name="description"
+            content={
+              modelData?.point
+                ? modelData?.point?.length < 1
+                  ? "Augmented Reality Effect by Pal Kagrecha"
+                  : modelData?.point[0]
+                : ` Deliver awe-inspiring Augmented Reality effects to your audience.
+          Elevate engagement and captivate users with our cutting-edge AR
+          solutions. Transform reality seamlessly `
+            }
+          />
+
+          <meta
+            property="og:url"
+            content="https://pal-portfolio.vercel.app/project"
+          />
+          <meta
+            property="og:image"
+            itemprop="video"
+            content={modelData?.videoLink}
+          />
+          <meta name="author" content={modelData?.through} />
+          <title>
+            {modelData?.name
+              ? modelData?.name
+              : " Projects - Immerse Yourself in VR Excellence"}
+          </title>
+          <link
+            rel="canonical"
+            href="https://pal-portfolio.vercel.app/project"
+          />
+        </Helmet>
+      </>
       <Modal
         id="modelHeight"
         isOpen={open}
