@@ -76,7 +76,12 @@ const Model = ({ open, setOpen, modelData }) => {
                 <ul>
                   {modelData?.point?.map((x, i) => (
                     <li>
-                      <p className="text-white">{x}</p>
+                      <p
+                        className="text-white "
+                        style={{ textAlign: "justify" }}
+                      >
+                        {x}
+                      </p>
                     </li>
                   ))}
                 </ul>
