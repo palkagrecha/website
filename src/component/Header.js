@@ -25,7 +25,7 @@ const Header = () => {
 
               <Link to="/project">Portfolio</Link>
 
-              <Link to="/touch">Contact Us</Link>
+              <Link to="/contact">Contact </Link>
 
               {/* <Nav.Link to="/service">Service</Nav.Link>
               <Nav.Link to="/project">Portfolio</Nav.Link>

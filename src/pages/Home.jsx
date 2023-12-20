@@ -76,7 +76,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="row btn_set  my-4 px-2 flex-wrap-reverse">
-                <button className="btn" onClick={() => navigate("/touch")}>
+                <button className="btn" onClick={() => navigate("/contact")}>
                   Let&#39;s Talk
                 </button>
               </div>

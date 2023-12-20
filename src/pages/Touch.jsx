@@ -4,23 +4,6 @@ import { useState } from "react";
 import { Helmet } from "react-helmet";
 
 const Touch = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-
-  const [address, setAddress] = useState("");
-
-  const [phone, setPhone] = useState("");
-
-  const [message, setMessage] = useState("");
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(name, email, message);
-    setName("");
-    setEmail("");
-    setAddress("");
-    setMessage("");
-    setPhone("");
-  };
   return (
     <>
       <div>
@@ -56,17 +39,17 @@ const Touch = () => {
                   <b>Get in touch</b>
                 </h2>
                 <div className="row">
-                  <form onSubmit={handleSubmit}>
+                  <form name="website-contact-form" netlify>
                     <div className="mb-1 formHeadingLabel">
                       <label for="exampleInputName" class="form-label">
                         Your Name
                       </label>
                       <input
-                        value={name}
+                        name="name"
                         type="text"
                         className="form-control"
                         id="exampleInputName"
-                        onChange={(e) => setName(e.target.value)}
+                        required
                       />
                     </div>
 
@@ -76,10 +59,9 @@ const Touch = () => {
                       </label>
                       <input
                         type="email"
-                        value={email}
+                        name="email"
                         className="form-control"
                         id="exampleInputEmail1"
-                        onChange={(e) => setEmail(e.target.value)}
                       />
                     </div>
                     <div className="mb-1 formHeadingLabel">
@@ -88,10 +70,9 @@ const Touch = () => {
                       </label>
                       <input
                         type="text"
-                        value={address}
+                        name="address"
                         className="form-control"
                         id="exampleInputAddress"
-                        onChange={(e) => setAddress(e.target.value)}
                       />
                     </div>
                     <div className="mb-1 formHeadingLabel">
@@ -100,10 +81,10 @@ const Touch = () => {
                       </label>
                       <input
                         type="number"
-                        value={phone}
+                        name="number"
                         className="form-control"
                         id="exampleInputPhone"
-                        onChange={(e) => setPhone(e.target.value)}
+                        required
                       />
                     </div>
                     <div className="mb-1 formHeadingLabel">
@@ -111,11 +92,11 @@ const Touch = () => {
                         Message
                       </label>
                       <textarea
+                        name="message"
                         className="form-control"
-                        value={message}
                         id="exampleFormControlMessage"
                         rows="3"
-                        onChange={(e) => setMessage(e.target.value)}
+                        required
                       ></textarea>
                     </div>
 

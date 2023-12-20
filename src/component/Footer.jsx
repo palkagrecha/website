@@ -27,7 +27,7 @@ const Footer = () => {
                 </i>
                 <p className="text-center mt-3 navFooter">
                   <Link to="/about">About</Link>|
-                  <Link to="/touch">Contact</Link>|
+                  <Link to="/contact">Contact</Link>|
                   <Link to="/service">Service</Link>
                 </p>
                 <p className="d-flex justify-content-center " id="iconMobile">
