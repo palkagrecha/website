@@ -38,7 +38,7 @@ const Touch = () => {
                   <b>Get in touch</b>
                 </h2>
                 <div className="row">
-                  <form name="website-contact-form" netlify>
+                  <form name="website-contact-form" method="post" netlify>
                     <div className="mb-1 formHeadingLabel">
                       <label for="exampleInputName" class="form-label">
                         Your Name

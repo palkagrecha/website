@@ -19,6 +19,7 @@ import "../style/playvideo.css";
 import "../style/achievement.css";
 import "../style/project.css";
 import "../style/navbar.css";
+import NotFound from "../pages/NotFound.jsx";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/service" element={<WhatWe />} />
           <Route path="/contact" element={<Touch />} />
           <Route path="/project" element={<Project />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </BrowserRouter>
