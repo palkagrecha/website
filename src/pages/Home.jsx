@@ -28,11 +28,11 @@ const Home = () => {
             name="keywords"
             content="AR solutions, gaming AR, entertainment experiences, education technology, healthcare applications"
           />
-          <meta property="og:url" content="https://pal-portfolio.vercel.app/" />
+          <meta property="og:url" content="https://palkagrecha.com/" />
           <meta
             property="og:image"
             itemprop="image"
-            content="https://pal-portfolio.vercel.app/static/media/PalKagrechaProfessionsalPicAbout.ef9ce083b56620892d96.jpg"
+            content="https://palkagrecha.com/static/media/PalKagrechaProfessionsalPicAbout.ef9ce083b56620892d96.jpg"
           />
           <meta name="author" content="Pal Kagrecha" />
           <title> Pal Kagrecha - AR Developer</title>
