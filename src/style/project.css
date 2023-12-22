@@ -72,14 +72,18 @@
   flex-wrap: wrap;
 }
 
-
+.project_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .playVideo_auto1 video {
   padding: 0 !important;
 
   border-radius: 2rem;
   /* margin: 10px 10px; */
-  width: 300px;
+  width: 250px;
   cursor: pointer;
 
 

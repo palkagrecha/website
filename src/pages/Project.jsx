@@ -64,7 +64,7 @@ const Project = () => {
             content="https://palkagrecha.com/static/media/PalKagrechaProfessionsalPicAbout.ef9ce083b56620892d96.jpg"
           />
           <meta name="author" content="Pal Kagrecha" />
-          <title> Projects - Immerse Yourself in VR Excellence</title>
+          <title> Projects - Pal Kagrecha</title>
           <link
             rel="canonical"
             href="https://pal-portfolio.vercel.app/project"
@@ -168,11 +168,11 @@ const Project = () => {
             <div className="project_list  mt-5  mx-0 p-0 ">
               {arr.map((x, i) => (
                 <div
-                  className="col-md-3  my-2  m-0 p-0"
+                  className="col-md-3  my-2  m-0 p-0 "
                   key={i}
                   onClick={() => handleOpen(x)}
                 >
-                  <div className="row playVideo_auto1 mx-0   p-2">
+                  <div className="row playVideo_auto1 mx-0   p-2 ">
                     <video
                       autoPlay
                       playsinline={true}
@@ -181,7 +181,7 @@ const Project = () => {
                       width="300"
                       poster="https://www.shutterstock.com/image-vector/man-wearing-virtual-reality-glasses-600nw-790270129.jpg"
                       preload="auto"
-                      className="projectVideo"
+                      className="projectVideo m-auto"
                       aria-label={
                         x.point.length < 1
                           ? "Augmented Reality Effect by Pal Kagrecha"

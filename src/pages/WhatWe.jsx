@@ -22,7 +22,7 @@ const WhatWe = () => {
             content="https://palkagrecha.com/static/media/PalKagrechaProfessionsalPicAbout.ef9ce083b56620892d96.jpg"
           />
           <meta name="author" content="Pal Kagrecha" />
-          <title> What we do - Connect for Innovative Solutions</title>
+          <title> What we do - Pal Kagrecha</title>
         </Helmet>
       </div>
       <section className="work">

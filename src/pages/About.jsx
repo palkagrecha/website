@@ -28,7 +28,7 @@ const About = () => {
           />
           <meta name="author" content="Pal Kagrecha" />
 
-          <title> About Us - Pioneering Augmented Reality Experiences</title>
+          <title> About - Pal Kagrecha</title>
         </Helmet>
       </div>
       <section className="about">

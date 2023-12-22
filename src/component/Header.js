@@ -20,6 +20,8 @@ const Header = () => {
           />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto nav_name mt-2" id="navDesign">
+              <Link to="/">Home</Link>
+
               <Link to="/about">About</Link>
               <Link to="/service">Service</Link>
 

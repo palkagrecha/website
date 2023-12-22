@@ -35,7 +35,7 @@ const Touch = () => {
             content="https://palkagrecha.com/static/media/PalKagrechaProfessionsalPicAbout.ef9ce083b56620892d96.jpg"
           />
           <meta name="author" content="Pal Kagrecha" />
-          <title> Contact Us - Connect for Innovative Solutions</title>
+          <title> Contact - Pal Kagrecha</title>
         </Helmet>
       </div>
       <div className="touch">
