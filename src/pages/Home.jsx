@@ -36,7 +36,7 @@ const Home = () => {
           />
           <meta name="author" content="Pal Kagrecha" />
           <title> Pal Kagrecha - AR Developer</title>
-          <link rel="canonical" href="https://pal-portfolio.vercel.app/" />
+          <link rel="canonical" href="https://palkagrecha.com/" />
         </Helmet>
       </>
       <section className="upper py-5">
