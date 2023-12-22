@@ -65,10 +65,7 @@ const Project = () => {
           />
           <meta name="author" content="Pal Kagrecha" />
           <title> Projects - Pal Kagrecha</title>
-          <link
-            rel="canonical"
-            href="https://pal-portfolio.vercel.app/project"
-          />
+          <link rel="canonical" href="https://wwww.palkagrecha.com/project" />
         </Helmet>
       </div>
       <Model open={open} setOpen={setOpen} modelData={modelData} />
