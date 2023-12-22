@@ -176,7 +176,6 @@ const Project = () => {
                       muted
                       loop
                       width="300"
-                      poster="https://www.shutterstock.com/image-vector/man-wearing-virtual-reality-glasses-600nw-790270129.jpg"
                       preload="auto"
                       className="projectVideo m-auto"
                       aria-label={
