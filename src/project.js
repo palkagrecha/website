@@ -1,6 +1,6 @@
 export const arrData = [
   {
-    name: "Vishal Kumar",
+    name: "Vishall Kumar",
     through: "by @palkagrecha",
     point: [],
     type: "personal",
@@ -9,9 +9,13 @@ export const arrData = [
       "https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702271191/Website%20Videos/Personal/Mobility_of_Tomorrow_bohnao.mp4",
   },
   {
-    name: "Rahul Kumar",
+    name: "VCR Vibes",
     through: "by @palkagrecha",
-    point: [],
+    point: [
+      "Provides an aesthetic feel of the Video Cassette Recorder (VCR)",
+      "Includes date and play text on the screen, changing with a screen tap",
+    ],
+    tryIt: "https://www.instagram.com/ar/480205086461974/",
     type: "personal",
     underType: "snap",
     videoLink:
@@ -45,9 +49,14 @@ export const arrData = [
   },
 
   {
-    name: "Rahul Kumar",
+    name: "Trippin",
     through: "by @palkagrecha",
-    point: [],
+    point: [
+      "Filter created using Render Passes to bypass Spark AR Studio’s default render pipeline",
+      "Intuitive effects with delay frame",
+      "Includes RGB shaders with Kira-Kira effect for a trippy vibe",
+    ],
+    tryIt: "https://www.instagram.com/ar/517088132789624/",
     type: "personal",
     underType: "snap",
     videoLink:
@@ -63,6 +72,7 @@ export const arrData = [
       "Just like how it used to be in the earlier DVD player’s screensaver.",
       "Users can add the media from their gallery as well. The dimensions of the plane will get adjusted according to the user’s smartphone dimensions or the media added by the users from the gallery.",
     ],
+    tryIt: "https://www.instagram.com/ar/321838249913002/",
     type: "personal",
     underType: "snap",
     videoLink:
@@ -77,6 +87,8 @@ export const arrData = [
       "Camouflage yourself in innovation and style as you explore a world of augmented reality.",
       "Unleash your inner sci-fi hero and embrace the allure of advanced technology in every snap.",
     ],
+    tryIt:
+      "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=39494bedb90a471084f4351fac77b16e&metadata=01",
     type: "personal",
     underType: "snap",
     videoLink:
@@ -90,6 +102,8 @@ export const arrData = [
       "One the user taps, the pot comes bursting through the ground, with debris flying into the air and heavenly rays of light shining bright through the cavity.",
       "Other elements like the rangoli pattern animate into the scene, covering up the cavity, the diyas, bells, lamps and the Happy Navaratri text animate into the scene subsequently.",
     ],
+    tryIt:
+      "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=b9cd552f22a649fdb25f9643ff74dbd7&metadata=01",
     type: "personal",
     underType: "snap",
     videoLink:
@@ -97,9 +111,13 @@ export const arrData = [
   },
 
   {
-    name: "Rahul Kumar",
+    name: "Pride Rays",
     through: "by @palkagrecha",
-    point: [],
+    point: [
+      "Filter dedicated to the Pride community to show support and acknowledge their struggles.",
+      "Projects a beam of rays in Pride colors coming out of the user's eyes.",
+    ],
+    tryIt: "https://www.instagram.com/ar/233520225342022/",
     type: "personal",
     underType: "snap",
     videoLink:
@@ -107,9 +125,20 @@ export const arrData = [
   },
 
   {
-    name: "Rahul Kumar",
+    name: "Hindi Swar",
     through: "by @palkagrecha",
-    point: [],
+    point: [
+      "The aim is to transform Education through AR",
+      "Make learning easy through real-time visualization, focusing on vowels (Swar - सव् र) in Hindi",
+      "The effect activates upon detecting the user's face",
+      "A 2D plane hovers above the user's head with a face mesh containing clues on the cheeks",
+      "The filter includes a picker UI with options for all 13 sets of different vowels in Hindi",
+      "User selection triggers the pronunciation audio of the chosen vowel",
+      "On-screen instruction: 'Tap to Start'",
+      "User taps the screen to reveal the answer for each vowel, displayed above their head",
+      "Images representing answers accompany the display, along with audio for better understanding",
+    ],
+    tryIt: "https://www.instagram.com/ar/737249110165873/",
     type: "personal",
     underType: "snap",
     videoLink:
@@ -117,9 +146,13 @@ export const arrData = [
   },
 
   {
-    name: "Rahul Kumar",
+    name: "Plum Martini",
     through: "by @palkagrecha",
-    point: [],
+    point: [
+      "Filter contains a Purple Martini Look-Up table (LUT).",
+      "LUT designed in Adobe Photoshop by playing with Hue & Saturation values.",
+    ],
+    tryIt: "https://www.instagram.com/ar/1126360784444710/",
     type: "personal",
     underType: "snap",
     videoLink:
@@ -127,18 +160,29 @@ export const arrData = [
   },
 
   {
-    name: "Rahul Kumar",
+    name: "My Dream",
     through: "by @palkagrecha",
-    point: [],
+    point: [
+      "This Snapchat lens was created for the nationwide Lensathon.",
+      "The theme of the competition was #CelebrateTheDifferences for the International Women's Day.",
+      "My Dream: She can be what she decides to be, an Entrepreneur, a Sports Person, an Army Personal, an Astronaut, an Architect and whatnot!",
+    ],
+    tryIt:
+      "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=525e2180e1e840e8b80a2c9b7c634193&metadata=01",
     type: "personal",
     underType: "snap",
     videoLink:
       "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/MyDream_gyjtsl",
   },
   {
-    name: "Rahul Kumar",
+    name: "Navi Shades",
     through: "by @palkagrecha",
-    point: [],
+    point: [
+      "Filter designed using the concept of Signed Distance Field (SDF) shapes.",
+      "Procedural texture created in META SPARK Studio.",
+      "Union of unique SDF shapes converts the texture output of the signed distance into a creative design mask as a function of the UV coordinate.",
+    ],
+    tryIt: "https://www.instagram.com/ar/4489557951094188/",
     type: "personal",
     underType: "snap",
     videoLink:
@@ -156,9 +200,17 @@ export const arrData = [
   },
 
   {
-    name: "Rahul Kumar",
+    name: "Henna ARt",
     through: "by @palkagrecha",
-    point: [],
+    point: [
+      "Henna-ARt, has won the second prize in the prestigious Indian Summer Lensathon 2023 hosted by Snap AR and Hack2skill! 🎉🎉.",
+      "Get ready to experience an immersive AR experience that celebrates the diverse trends of Indian culture in a creative way!",
+      "This lens lets you design your very own #henna pattern and see how it would look on your hands - all thanks to Snapchat's 3D hand-tracking solution! I programmed the user interaction flow while Roman focused on creating aesthetic UI elements and melody to enhance the overall experience.",
+      "Try the effect for yourself. We had a blast creating it and can't wait for you to try it out! Don't miss out on the fun!",
+    ],
+    tryIt:
+      "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=b8e83c693ee64fd7a966434783496bbc&metadata=01",
+
     type: "personal",
     underType: "snap",
     videoLink:
@@ -166,9 +218,14 @@ export const arrData = [
   },
 
   {
-    name: "Rahul Kumar",
+    name: "Frontline Sketch",
     through: "by @palkagrecha",
-    point: [],
+    point: [
+      "Designed for country-wide Hackathon and themed around frontline workers",
+      "Expresses gratitude to all frontline workers during the pandemic",
+      "Utilizes Look-Up Table (LUT) for posterization texture, Person Segmentation with different Render Pass, and Delay Frame",
+    ],
+    tryIt: "https://www.instagram.com/ar/512489746605539/",
     type: "personal",
     underType: "snap",
     videoLink:
@@ -176,27 +233,43 @@ export const arrData = [
   },
 
   {
-    name: "Rahul Kumar",
+    name: "Halloween Ghost",
     through: "by @palkagrecha",
-    point: [],
+    point: [
+      "Transform into an ethereal being with the Halloween Ghost using this Snapchat lens.",
+      "It is draped in a spectral white shroud, hauntingly elegant.",
+      "Unleash your inner ghost and haunt your snaps with an eerie charm.",
+      "A touch of spooky fun for your Halloween selfies, invoking the spirit of the season.",
+    ],
+    tryIt:
+      "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=935e8aba8dc44365b958d183223d7b98&metadata=01",
     type: "personal",
     underType: "snap",
     videoLink:
       "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/Halloween_GHost_r8urhm",
   },
   {
-    name: "Rahul Kumar",
+    name: "Curves",
     through: "by @palkagrecha",
-    point: [],
+    point: [
+      "Uses the Vertex Displacement Technique with Vertex Transform patch & Vertex Attribute patch.",
+      "Creates a wave-like feel.",
+      "UI Picker gives users an option to choose between horizontal & vertical displacement.",
+    ],
+    tryIt: "https://www.instagram.com/ar/1707012712820154/",
     type: "personal",
     underType: "snap",
     videoLink:
       "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/Curves_kfflwc",
   },
   {
-    name: "Rahul Kumar",
+    name: "Glow",
     through: "by @palkagrecha",
-    point: [],
+    point: [
+      "Beautification AR filter.",
+      "Adds facial makeup, including Blush, Nose Highlight, and Glossiness, on the user’s face.",
+    ],
+    tryIt: "https://www.instagram.com/ar/806296009945398/",
     type: "personal",
     underType: "snap",
     videoLink:
@@ -232,18 +305,36 @@ export const arrData = [
   },
 
   {
-    name: "Mohan Lal Kumar",
+    name: "WonderChef",
     through: "by @palkagrecha",
-    point: [],
+    point: [
+      "This AR Effect is created for the famous Content Creator Wondermunna.",
+      "It was part of #SPARK_CREATION project in collaboration with Meta India.",
+      "For all the pizza lovers, are you excited to make your favourite pizza?",
+      "Try this AR Effect and get a chance to showcase your inner WonderChef.",
+    ],
+    tryIt: "https://www.instagram.com/ar/658234642544445/",
     type: "client",
     underType: "snap",
     videoLink:
       "https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702271007/Website%20Videos/Client/WonderChef_hethln.mp4",
   },
   {
-    name: "Mohan Lal Kumar",
+    name: "Diwali Rangoli",
     through: "by @palkagrecha",
-    point: [],
+    point: [
+      "This Diwali, dive into the nostalgia of creating Rangoli with your loved ones through our groundbreaking connected lens experience! 🎨🤝",
+      "Thrilled to share that Krunal and I have crafted a unique way to relive the joy of Rangoli making, bringing everyone together no matter where you are! 🌍💫",
+      "🔴Here's how the magic unfolds:",
+      "1.Open the Snapchat app.",
+      "2.Click on the lens explorer.",
+      "3.Search for Diwali Rangoli & open the Lens.",
+      "4.Start a session with a group and invite your friends to join.",
+      "5.Ask your friends to do the same, and in no time, you're all in the same creative session! 🎉",
+      "6.Choose your favourite colour and drop it into the rangoli section to see it appear in your friend's rangoli! 😍🌈All of this is made possible by the incredible Snap AR's Sync Framework! 🚀",
+    ],
+    tryIt:
+      "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=e916778388ca4240bb98d28227cd4c3a&metadata=01",
     type: "client",
     underType: "insta",
     videoLink:
@@ -259,6 +350,7 @@ export const arrData = [
       "User need to tilt their head from side to side to collect the treasure coins and avoid from the stones (obstacles) at the same time.",
       "The user has 3 lifelines to collect the treasure and score highest.",
     ],
+    tryIt: "https://www.instagram.com/ar/358064629446587/",
     type: "client",
     underType: "snap",
     videoLink:
@@ -273,6 +365,7 @@ export const arrData = [
       "#ReviewAMovie on reels.",
       "Users can share their movie experience using this AR Effect which is created for an e-sports creators aka Triggered Insaan",
     ],
+    tryIt: "https://www.instagram.com/ar/1313762435835008/",
     type: "client",
     underType: "snap",
     videoLink:
@@ -289,6 +382,7 @@ export const arrData = [
       "At random a beanie gets selected.",
       "A notification pops up for the user to get ready to click with the polaroid frame after the counter.",
     ],
+    tryIt: "https://lens.snapchat.com/43a1d23c71eb4942a879fb3905210a6d",
     type: "client",
     underType: "snap",
     videoLink:
@@ -303,6 +397,8 @@ export const arrData = [
       "Users can try all the jersey's from the start of the IPL i.e. 2008 till the current year i.e. 2023.",
       "Check out the showreel of our lens on our YouTube page",
     ],
+    tryIt:
+      "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=a43f7b25a418449095b182db2b21faf0&metadata=01",
     type: "client",
     underType: "snap",
     videoLink:
@@ -320,7 +416,16 @@ export const arrData = [
   {
     name: "Be a Paraglider",
     through: "by @palkagrecha",
-    point: [],
+    point: [
+      "This AR Effect uses a microphone as an input with an audio analyzer patch functionality.",
+      "It is an audio-based game where the user’s voice is taken as input to control the peak of the mascot (Zobu) which can be seen in the paragliding outfit.",
+      "The more intense the user’s voice frequency, the higher goes the Zobu.",
+      "To control the horizontal movement of the Zobu, the user needs to tilt their head.",
+      "To keep playing, they need to dodge the trees, and to increase the score, they need to collect the badges.",
+      "The score is displayed over the head of the user.",
+      "All the gaming instructions are given at the start of the game.",
+    ],
+    tryIt: "https://www.instagram.com/ar/235912797902003/",
     type: "client",
     underType: "snap",
     videoLink:

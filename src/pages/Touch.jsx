@@ -1,20 +1,20 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import { useEffect, useState } from "react";
-import Swal from "sweetalert2";
+// import { useEffect, useState } from "react";
+// import Swal from "sweetalert2";
 
 const Touch = () => {
-  const [success, setSuccess] = useState(false);
+  // const [success, setSuccess] = useState(false);
 
-  useEffect(() => {
-    if (window.location.search.includes("success=true")) {
-      setSuccess(true);
-    }
-  }, []);
-  if (success) {
-    Swal.fire("Thank for your message, i will get back to you soon!");
-  }
+  // useEffect(() => {
+  //   if (window.location.search.includes("success=true")) {
+  //     setSuccess(true);
+  //   }
+  // }, []);
+  // if (success) {
+  //   Swal.fire("Thank for your message, i will get back to you soon!");
+  // }
   return (
     <>
       <div>
@@ -51,7 +51,6 @@ const Touch = () => {
                   <form
                     name="website-contact-form"
                     method="POST"
-                    action="/contact/?success=true"
                     data-netlify="true"
                   >
                     <div className="mb-1 formHeadingLabel">

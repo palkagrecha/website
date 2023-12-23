@@ -19,24 +19,16 @@ const Project = () => {
   };
 
   const filterData = (data) => {
-    console.log(data.type, data);
     if (data.type === "All") {
-      console.log("instaAllClickIf", arr);
-
-      const afterFilter = arrData.filter((x, i) => x.underType === data.name);
-      console.log(data.type, afterFilter);
-      setArr(afterFilter);
+      setArr(arrData.filter((x) => x.underType === data.name));
     } else {
-      console.log("instaAllClickIfelse", arr);
-
-      const afterFilter = arrData.filter(
-        (x, i) => x.underType === data.name && x.type === data.type
+      setArr(
+        arrData.filter((x) => x.underType === data.name && x.type === data.type)
       );
-      console.log(data.type, afterFilter);
-      setArr(afterFilter);
     }
   };
-  if (arr.length < 1 || arr === "undefined") {
+
+  if (!arr || arr.length < 1) {
     Swal.fire("Comming Soon");
     setArr(arrData);
   }
@@ -163,10 +155,10 @@ const Project = () => {
               </DropdownButton>
             </div>
             <div className="project_list  mt-5  mx-0 p-0 ">
-              {arr.map((x, i) => (
+              {arr?.map((x, i) => (
                 <div
                   className="col-md-3  my-2  m-0 p-0 "
-                  key={i}
+                  key={x.videoLink}
                   onClick={() => handleOpen(x)}
                 >
                   <div className="row playVideo_auto1 mx-0   p-2 ">

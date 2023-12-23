@@ -87,9 +87,13 @@ const Model = ({ open, setOpen, modelData }) => {
                 </ul>
               </div>
 
-              <button className="btn bg-primary text-white modelBtn m-auto">
+              <a
+                href={modelData.tryIt}
+                target="blank"
+                className="btn bg-primary text-white modelBtn m-auto"
+              >
                 TRY IT OUT
-              </button>
+              </a>
             </div>
           </div>
         </div>
