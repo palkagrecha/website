@@ -18,11 +18,8 @@ const Footer = () => {
                   </a>
                 </p>
                 <i className="text-center">
-                  <a
-                    href="https://vishal-portfolio-amber.vercel.app/"
-                    className="meDeveloper"
-                  >
-                    All right Reserved &copy; Vishal Kumar 2023
+                  <a href="https://palkagrecha.com" className="meDeveloper">
+                    All right Reserved &copy; Pal Kagrecha 2023
                   </a>
                 </i>
                 <p className="text-center mt-3 navFooter">
