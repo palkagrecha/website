@@ -1,5 +1,4 @@
 import React from "react";
-import Profile from "../images/PalKagrechaProfessionsalPicAbout.jpg";
 import { brandTitle2, advancedLogo } from "../brand";
 import Brands1 from "../component/Brands1";
 
@@ -46,7 +45,7 @@ const About = () => {
             <div className="col-sm-4">
               <div className="row at575px">
                 <img
-                  src={Profile}
+                  src="https://res.cloudinary.com/dxhvvxfqf/image/upload/f_auto,q_auto/wmgts7znbrnfgbgeubev"
                   alt="biance"
                   height={400}
                   class=" rounded "

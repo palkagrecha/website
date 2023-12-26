@@ -63,8 +63,8 @@ const Project = () => {
       <section className="project py-5">
         <div className="container-fluid" id="headerProject">
           <div className="row ">
-            <div className="row">
-              <h1 className="text-light">
+            <div className="row ">
+              <h1 className="text-light mobileView ">
                 <b>Augmented Reality Effect</b>
               </h1>
             </div>

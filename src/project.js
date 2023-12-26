@@ -47,6 +47,8 @@ export const arrData = [
       "This lens also provides the UN guidelines for the World Water Day.",
     ],
     type: "personal",
+    tryIt:
+      "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=741c5723d22643d29e6671515299eae7&metadata=01",
     underType: "snap",
     videoLink:
       "https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702271188/Website%20Videos/Personal/World_Water_Day_bqxul0.mp4",
@@ -64,7 +66,7 @@ export const arrData = [
     ],
     tryIt: "https://www.instagram.com/ar/517088132789624/",
     type: "personal",
-    underType: "snap",
+    underType: "insta",
     videoLink:
       "https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702271181/Website%20Videos/Personal/Trippin_klgtxv.mp4",
     thumbnail:
@@ -82,7 +84,7 @@ export const arrData = [
     ],
     tryIt: "https://www.instagram.com/ar/321838249913002/",
     type: "personal",
-    underType: "snap",
+    underType: "insta",
     videoLink:
       "https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702271177/Website%20Videos/Personal/ScreenSaver_xidbzk.mp4",
     thumbnail:
@@ -133,7 +135,7 @@ export const arrData = [
     ],
     tryIt: "https://www.instagram.com/ar/233520225342022/",
     type: "personal",
-    underType: "snap",
+    underType: "insta",
     videoLink:
       "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/Pride_ray_l0myg2",
     thumbnail:
@@ -156,7 +158,7 @@ export const arrData = [
     ],
     tryIt: "https://www.instagram.com/ar/737249110165873/",
     type: "personal",
-    underType: "snap",
+    underType: "insta",
     videoLink:
       "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/HindiSwaarKid_sg80ph",
     thumbnail:
@@ -172,7 +174,7 @@ export const arrData = [
     ],
     tryIt: "https://www.instagram.com/ar/1126360784444710/",
     type: "personal",
-    underType: "snap",
+    underType: "insta",
     videoLink:
       "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/PlumMartini_bzpwmp",
     thumbnail:
@@ -206,7 +208,7 @@ export const arrData = [
     ],
     tryIt: "https://www.instagram.com/ar/4489557951094188/",
     type: "personal",
-    underType: "snap",
+    underType: "insta",
     videoLink:
       "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/Navi_Shades_uqffoc",
     thumbnail:
@@ -253,7 +255,7 @@ export const arrData = [
     ],
     tryIt: "https://www.instagram.com/ar/512489746605539/",
     type: "personal",
-    underType: "snap",
+    underType: "insta",
     videoLink:
       "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/FrontlineSketch_biwj6m",
     thumbnail:
@@ -288,7 +290,7 @@ export const arrData = [
     ],
     tryIt: "https://www.instagram.com/ar/1707012712820154/",
     type: "personal",
-    underType: "snap",
+    underType: "insta",
     videoLink:
       "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/Curves_kfflwc",
     thumbnail:
@@ -303,7 +305,7 @@ export const arrData = [
     ],
     tryIt: "https://www.instagram.com/ar/806296009945398/",
     type: "personal",
-    underType: "snap",
+    underType: "insta",
     videoLink:
       "https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/Glow_borip6",
 
@@ -350,7 +352,7 @@ export const arrData = [
     ],
     tryIt: "https://www.instagram.com/ar/658234642544445/",
     type: "client",
-    underType: "snap",
+    underType: "insta",
     videoLink:
       "https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702271007/Website%20Videos/Client/WonderChef_hethln.mp4",
     thumbnail:
@@ -373,7 +375,7 @@ export const arrData = [
     tryIt:
       "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=e916778388ca4240bb98d28227cd4c3a&metadata=01",
     type: "client",
-    underType: "insta",
+    underType: "snap",
     videoLink:
       "https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702271005/Website%20Videos/Client/DiwaliRangoli_a0nz7k.mp4",
     thumbnail: "",
@@ -390,7 +392,7 @@ export const arrData = [
     ],
     tryIt: "https://www.instagram.com/ar/358064629446587/",
     type: "client",
-    underType: "snap",
+    underType: "insta",
     videoLink:
       "https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702270995/Website%20Videos/Client/UnchartedGame_qn0sam.mp4",
     thumbnail:
@@ -407,7 +409,7 @@ export const arrData = [
     ],
     tryIt: "https://www.instagram.com/ar/1313762435835008/",
     type: "client",
-    underType: "snap",
+    underType: "insta",
     videoLink:
       "https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702270995/Website%20Videos/Client/Review_A_Movie_Demo_Video_14s_fpcdbi.mp4",
     thumbnail:
@@ -473,7 +475,7 @@ export const arrData = [
     ],
     tryIt: "https://www.instagram.com/ar/235912797902003/",
     type: "client",
-    underType: "snap",
+    underType: "insta",
     videoLink:
       "https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702270977/Website%20Videos/Client/Be_a_Paraglider_fpqbqn.mp4",
   },

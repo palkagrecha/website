@@ -1,7 +1,6 @@
 import React from "react";
 // import Typed from "react-typed";
 import { useNavigate } from "react-router-dom";
-import Profile from "../images/PalKagrechaProfessionsalPicHome.png";
 import { BsInstagram } from "react-icons/bs";
 import { TbWorldCancel } from "react-icons/tb";
 import { FaSnapchatGhost } from "react-icons/fa";
@@ -93,7 +92,7 @@ const Home = () => {
                   <div className="clip_path">
                     <div id="mobileFloat ">
                       <img
-                        src={Profile}
+                        src="https://res.cloudinary.com/dxhvvxfqf/image/upload/f_auto,q_auto/yrbjpra0feiij1lrdiht"
                         alt="Pal Kagrecha"
                         id="owner"
                         height="450"

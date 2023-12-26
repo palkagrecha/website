@@ -189,11 +189,17 @@
 }
 
 @media screen and (max-width:575px) {
+  .playVideo_auto1 video {
+    width: 900px !important;
+  }
 
-  .modelVideo video {
-    height: 300px !important;
-    width: 350px !important;
-    margin: auto !important;
+  .mobileView {
+    text-align: center !important;
+    font-size: 1.3rem;
+  }
+
+  .project_list {
+    margin: 0 !important;
   }
 }
 
