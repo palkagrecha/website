@@ -1,5 +1,4 @@
 import React from "react";
-// import ReactPlayer from "react-player/lazy";
 import Model from "../component/Model";
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
@@ -170,6 +169,7 @@ const Project = () => {
                       width="300"
                       preload="auto"
                       className="projectVideo m-auto"
+                      poster={x?.thumbnail}
                       aria-label={
                         x.point.length < 1
                           ? "Augmented Reality Effect by Pal Kagrecha"

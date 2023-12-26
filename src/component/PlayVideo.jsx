@@ -27,7 +27,7 @@ const PlayVideo = () => {
           <SwiperSlide>
             <video autoPlay muted loop className="homeVideo">
               <source
-                src="https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702271189/Website%20Videos/Personal/Rollover_Donut_rgov9a.mp4"
+                src="https://res.cloudinary.com/dxhvvxfqf/video/upload/f_auto:video,q_auto/v1/Website%20Videos/Personal/HennaARtPreview_vjqazs"
                 type="video/mp4"
               />
             </video>
@@ -36,7 +36,7 @@ const PlayVideo = () => {
           <SwiperSlide>
             <video autoPlay muted loop className="homeVideo">
               <source
-                src="https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702271191/Website%20Videos/Personal/Mobility_of_Tomorrow_bohnao.mp4"
+                src="https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702271005/Website%20Videos/Client/DiwaliRangoli_a0nz7k.mp4"
                 type="video/mp4"
               />
             </video>
@@ -44,7 +44,7 @@ const PlayVideo = () => {
           <SwiperSlide>
             <video autoPlay muted loop className="homeVideo">
               <source
-                src="https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702271190/Website%20Videos/Personal/VCRvibes_bj2nb2.mp4"
+                src="https://res.cloudinary.com/dxhvvxfqf/video/upload/v1702270995/Website%20Videos/Client/Review_A_Movie_Demo_Video_14s_fpcdbi.mp4"
                 type="video/mp4"
               />
             </video>

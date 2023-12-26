@@ -14,42 +14,6 @@ const Model = ({ open, setOpen, modelData }) => {
   };
   return (
     <div>
-      <>
-        {/* <Helmet>
-          <meta
-            name="description"
-            content={
-              modelData?.point
-                ? modelData?.point?.length < 1
-                  ? "Augmented Reality Effect by Pal Kagrecha"
-                  : modelData?.point[0]
-                : ` Deliver awe-inspiring Augmented Reality effects to your audience.
-          Elevate engagement and captivate users with our cutting-edge AR
-          solutions. Transform reality seamlessly `
-            }
-          />
-
-          <meta
-            property="og:url"
-            content="https://pal-portfolio.vercel.app/project"
-          />
-          <meta
-            property="og:image"
-            itemprop="video"
-            content={modelData?.videoLink}
-          />
-          <meta name="author" content={modelData?.through} />
-          <title>
-            {modelData?.name
-              ? modelData?.name
-              : " Projects - Immerse Yourself in VR Excellence"}
-          </title>
-          <link
-            rel="canonical"
-            href="https://pal-portfolio.vercel.app/project"
-          />
-        </Helmet> */}
-      </>
       <Modal
         id="modelHeight"
         isOpen={open}
@@ -60,7 +24,7 @@ const Model = ({ open, setOpen, modelData }) => {
           <div className="row g-0 p-0 d-flex justify-content-between">
             <div className="col-sm-4 g-0 p-0" id="at575px">
               <div className="row   g-0 p-0 modelVideo">
-                <video autoPlay muted loop>
+                <video autoPlay loop>
                   <source src={modelData.videoLink} type="video/mp4" />
                 </video>
               </div>
