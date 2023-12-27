@@ -93,15 +93,42 @@
 
     .aboutIntro1,
     .aboutIntro2 {
-        font-size: 3rem !important;
+        font-size: 2rem !important;
     }
 
     .about {
 
-        height: 130vh;
+        height: 100%;
     }
 
     .aboutDs {
         text-align: center;
     }
+
+    .atSmallDevice {
+        margin: 0 !important;
+    }
+
+}
+
+@media (max-height:932px) and (max-width: 430px) {
+
+    .aboutIntro1,
+    .aboutIntro2 {
+        font-size: 2rem !important;
+    }
+
+    .about {
+
+        height: 100%;
+    }
+
+    .aboutDs {
+        text-align: center;
+    }
+
+    .atSmallDevice {
+        margin: 0 !important;
+    }
+
 }

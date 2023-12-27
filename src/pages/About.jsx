@@ -41,7 +41,7 @@ const About = () => {
             </h1>
           </div>
 
-          <div className="row my-5">
+          <div className="row my-5 atSmallDevice">
             <div className="col-sm-4">
               <div className="row at575px">
                 <img
