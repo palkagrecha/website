@@ -5,16 +5,9 @@ import { Helmet } from "react-helmet";
 // import Swal from "sweetalert2";
 
 const Touch = () => {
-  // const [success, setSuccess] = useState(false);
-
-  // useEffect(() => {
-  //   if (window.location.search.includes("success=true")) {
-  //     setSuccess(true);
-  //   }
-  // }, []);
-  // if (success) {
-  //   Swal.fire("Thank for your message, i will get back to you soon!");
-  // }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
   return (
     <>
       <div>
@@ -32,7 +25,7 @@ const Touch = () => {
           <meta
             property="og:image"
             itemprop="image"
-            content="https://palkagrecha.com/static/media/PalKagrechaProfessionsalPicAbout.ef9ce083b56620892d96.jpg"
+            content="https://www.palkagrecha.com/static/media/PalKagrechaProfessionsalPicAbout.ef9ce083b56620892d96.jpg"
           />
           <link rel="canonical" href="https://wwww.palkagrecha.com/contact" />
           <meta name="author" content="Pal Kagrecha" />
@@ -48,11 +41,7 @@ const Touch = () => {
                   <b>Get in touch</b>
                 </h2>
                 <div className="row">
-                  <form
-                    name="website-contact-form"
-                    method="POST"
-                    data-netlify="true"
-                  >
+                  <form onSubmit={handleSubmit}>
                     <div className="mb-1 formHeadingLabel">
                       <label for="exampleInputName" class="form-label">
                         Your Name

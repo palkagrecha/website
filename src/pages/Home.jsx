@@ -35,7 +35,7 @@ const Home = () => {
           />
           <meta name="author" content="Pal Kagrecha" />
           <title> Pal Kagrecha - AR Developer</title>
-          <link rel="canonical" href="https://wwww.palkagrecha.com/" />
+          <link rel="canonical" href="https://www.palkagrecha.com/" />
         </Helmet>
       </>
       <section className="upper py-5">
