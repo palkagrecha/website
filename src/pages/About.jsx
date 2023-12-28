@@ -26,7 +26,7 @@ const About = () => {
             content="https://palkagrecha.com/static/media/PalKagrechaProfessionsalPicAbout.ef9ce083b56620892d96.jpg"
           />
           <meta name="author" content="Pal Kagrecha" />
-          <link rel="canonical" href="https://wwww.palkagrecha.com/about" />
+          <link rel="canonical" href="https://www.palkagrecha.com/about" />
 
           <title> About - Pal Kagrecha</title>
         </Helmet>

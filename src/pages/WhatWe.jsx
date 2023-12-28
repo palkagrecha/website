@@ -21,7 +21,7 @@ const WhatWe = () => {
             itemprop="image"
             content="https://palkagrecha.com/static/media/PalKagrechaProfessionsalPicAbout.ef9ce083b56620892d96.jpg"
           />
-          <link rel="canonical" href="https://wwww.palkagrecha.com/service" />
+          <link rel="canonical" href="https://www.palkagrecha.com/service" />
           <meta name="author" content="Pal Kagrecha" />
           <title> Service- Pal Kagrecha</title>
         </Helmet>

@@ -56,7 +56,7 @@ const Project = () => {
           />
           <meta name="author" content="Pal Kagrecha" />
           <title> Projects - Pal Kagrecha</title>
-          <link rel="canonical" href="https://wwww.palkagrecha.com/project" />
+          <link rel="canonical" href="https://www.palkagrecha.com/project" />
         </Helmet>
       </div>
       <Model open={open} setOpen={setOpen} modelData={modelData} />

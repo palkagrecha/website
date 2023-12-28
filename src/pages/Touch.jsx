@@ -27,7 +27,7 @@ const Touch = () => {
             itemprop="image"
             content="https://www.palkagrecha.com/static/media/PalKagrechaProfessionsalPicAbout.ef9ce083b56620892d96.jpg"
           />
-          <link rel="canonical" href="https://wwww.palkagrecha.com/contact" />
+          <link rel="canonical" href="https://www.palkagrecha.com/contact" />
           <meta name="author" content="Pal Kagrecha" />
           <title> Contact - Pal Kagrecha</title>
         </Helmet>
