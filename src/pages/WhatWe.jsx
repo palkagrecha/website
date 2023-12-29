@@ -49,11 +49,11 @@ const WhatWe = () => {
             </div>
 
             <div className="col-md-3 count">
-              <h1>20Bi+</h1>
+              <h1>20B+</h1>
               <p>Impressions</p>
             </div>
             <div className="col-md-3 count">
-              <h1>1Bi+</h1>
+              <h1>1B+</h1>
               <p>Shares</p>
             </div>
 
