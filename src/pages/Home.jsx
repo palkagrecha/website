@@ -19,6 +19,7 @@ const Home = () => {
       <>
         <Helmet>
           <meta charSet="utf-8" />
+          <meta name="title" content="Pal Kagrecha"></meta>
           <meta
             name="description"
             content="Pal Kagrecha transforms ideas into captivating AR experiences. Experts in gaming, entertainment, education, and healthcare with 3+ years of expertise."
