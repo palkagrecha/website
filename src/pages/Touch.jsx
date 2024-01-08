@@ -13,6 +13,8 @@ const Touch = () => {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
+          <meta name="title" content="Contact - Pal Kagrecha" />
+
           <meta
             name="description"
             content="Reach out to Pal Kagrecha and explore the possibilities of innovative Augmented Reality solutions. Contact our team for inquiries, collaborations, or to discuss how we can elevate your projects with our expertise in AR technology."
@@ -21,11 +23,16 @@ const Touch = () => {
             name="keywords"
             content="Augmented Reality, AR experiences, Innovation, Digital Transformation, Pal Kagrecha, Expertise, Story, Values, Team, Technology"
           />
+          <meta property="og:title" content="Contact - Pal Kagrecha" />
+          <meta
+            property="og:description"
+            content="Reach out to Pal Kagrecha and explore the possibilities of innovative Augmented Reality solutions. Contact our team for inquiries, collaborations, or to discuss how we can elevate your projects with our expertise in AR technology."
+          />
           <meta property="og:url" content="https://palkagrecha.com/contact" />
           <meta
             property="og:image"
             itemprop="image"
-            content="https://www.palkagrecha.com/static/media/PalKagrechaProfessionsalPicAbout.ef9ce083b56620892d96.jpg"
+            content="https://res.cloudinary.com/dxhvvxfqf/image/upload/f_auto,q_auto/wmgts7znbrnfgbgeubev"
           />
           <link rel="canonical" href="https://www.palkagrecha.com/contact" />
           <meta name="author" content="Pal Kagrecha" />

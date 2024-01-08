@@ -19,7 +19,7 @@ const Home = () => {
       <>
         <Helmet>
           <meta charSet="utf-8" />
-          <meta name="title" content="Pal Kagrecha"></meta>
+          <meta name="title" content="Pal Kagrecha" />
           <meta
             name="description"
             content="Pal Kagrecha transforms ideas into captivating AR experiences. Experts in gaming, entertainment, education, and healthcare with 3+ years of expertise."
@@ -28,11 +28,18 @@ const Home = () => {
             name="keywords"
             content="AR solutions, gaming AR, entertainment experiences, education technology, healthcare applications"
           />
+
+          <meta property="og:title" content="Pal Kagrecha - AR Developer" />
+          <meta
+            property="og:description"
+            content="Transform ideas into captivating AR experiences. Specialists in gaming, entertainment, education, and healthcare solutions. Explore immersive possibilities with over 3 years of expertise , Pal Kagrecha"
+          />
+
           <meta property="og:url" content="https://palkagrecha.com/" />
           <meta
             property="og:image"
             itemprop="image"
-            content="https://palkagrecha.com/static/media/PalKagrechaProfessionsalPicAbout.ef9ce083b56620892d96.jpg"
+            content="https://res.cloudinary.com/dxhvvxfqf/image/upload/f_auto,q_auto/wmgts7znbrnfgbgeubev"
           />
           <meta name="author" content="Pal Kagrecha" />
           <title> Pal Kagrecha - AR Developer</title>

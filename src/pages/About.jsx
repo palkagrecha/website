@@ -11,6 +11,8 @@ const About = () => {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
+          <meta name="title" content="About - Pal Kagrecha" />
+
           <meta
             name="description"
             content="Discover the story behind Pal Kagrecha - a team of passionate professionals with over 3 years of expertise in crafting immersive Augmented Reality solutions. Learn about our journey, values, and commitment to transforming ideas into captivating digital realities."
@@ -19,11 +21,18 @@ const About = () => {
             name="keywords"
             content="Augmented Reality, AR experiences, Innovation, Digital Transformation, Pal Kagrecha, Expertise, Story, Values, Team, Technology"
           />
+
+          <meta property="og:title" content=" About - Pal Kagrecha" />
+          <meta
+            property="og:description"
+            content="Discover the story behind Pal Kagrecha - a team of passionate professionals with over 3 years of expertise in crafting immersive Augmented Reality solutions. Learn about our journey, values, and commitment to transforming ideas into captivating digital realities."
+          />
+
           <meta property="og:url" content="https://palkagrecha.com/about" />
           <meta
             property="og:image"
             itemprop="image"
-            content="https://palkagrecha.com/static/media/PalKagrechaProfessionsalPicAbout.ef9ce083b56620892d96.jpg"
+            content="https://res.cloudinary.com/dxhvvxfqf/image/upload/f_auto,q_auto/wmgts7znbrnfgbgeubev"
           />
           <meta name="author" content="Pal Kagrecha" />
           <link rel="canonical" href="https://www.palkagrecha.com/about" />

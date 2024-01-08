@@ -36,6 +36,8 @@ const Project = () => {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
+          <meta name="title" content="Projects - Pal Kagrecha" />
+
           <meta
             name="description"
             content="Deliver awe-inspiring Augmented Reality effects to your audience. Elevate engagement and captivate users with our cutting-edge AR solutions. Transform reality seamlessly"
@@ -48,11 +50,17 @@ const Project = () => {
             name="keywords"
             content="Augmented Reality, AR experiences, Innovation, Digital Transformation, Pal Kagrecha, Expertise, Story, Values, Team, Technology"
           />
+          <meta property="og:title" content="Projects - Pal Kagrecha" />
+          <meta
+            property="og:description"
+            content="Deliver awe-inspiring Augmented Reality effects to your audience. Elevate engagement and captivate users with our cutting-edge AR solutions. Transform reality seamlessly"
+          />
+
           <meta property="og:url" content="https://palkagrecha.com/project" />
           <meta
             property="og:image"
             itemprop="image"
-            content="https://palkagrecha.com/static/media/PalKagrechaProfessionsalPicAbout.ef9ce083b56620892d96.jpg"
+            content="https://res.cloudinary.com/dxhvvxfqf/image/upload/f_auto,q_auto/wmgts7znbrnfgbgeubev"
           />
           <meta name="author" content="Pal Kagrecha" />
           <title> Projects - Pal Kagrecha</title>
